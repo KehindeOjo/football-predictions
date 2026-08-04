@@ -41,11 +41,17 @@ def run_league(conn, league_id: int, league_name: str):
     print(f"\n=== {league_name} (league_id={league_id}) ===")
 
     print("Fetching completed results...")
-    results = get_results(league_id, SEASON)
+    try:
+        results = get_results(league_id, SEASON)
+    except RuntimeError as e:
+        print(f"Skipping {league_name}: {e}")
+        return []  # return empty list so main() can continue
+
     results["home_goals"] = results["home_goals"]
     results["away_goals"] = results["away_goals"]
     db_utils.upsert_matches(conn, results, league_id, status="played")
     print(f"Stored {len(results)} completed matches.")
+
 
     print("Fetching upcoming fixtures...")
     upcoming = get_upcoming_fixtures(league_id, SEASON, next_n=15)
