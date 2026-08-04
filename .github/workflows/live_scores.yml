@@ -1,0 +1,40 @@
+permissions:
+  contents: write
+
+name: Live Scores Refresh
+# Refreshes today's match status/score frequently, independent of the
+# once-a-day prediction pipeline (daily_predictions.yml). Kept as a
+# separate, lightweight job on purpose -- it only asks for today's
+# scores, so it stays fast and cheap on the API rate limit even
+# running every 15 minutes.
+#
+# Note: GitHub Actions cron schedules are "best effort" -- during busy
+# periods a run can be delayed by a few minutes. That's normal and not
+# a sign anything is broken.
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # every 15 minutes
+  workflow_dispatch:          # lets you also trigger it manually from the Actions tab
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install pandas
+      - name: Refresh live scores
+        env:
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
+        run: python live_update.py
+      - name: Commit if changed
+        run: |
+          git config user.name "prediction-bot"
+          git config user.email "actions@github.com"
+          git add live_today.json
+          git diff --cached --quiet || git commit -m "Live scores refresh: $(date -u +%H:%M)"
+          git push
