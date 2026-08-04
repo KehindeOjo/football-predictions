@@ -1,5 +1,5 @@
 """
-API-Football (api-sports.io) client.
+football-data.org client.
 
 Handles the two things the prediction pipeline needs from a real
 fixtures provider:
@@ -9,45 +9,67 @@ fixtures provider:
   2. Upcoming fixtures, to generate predictions for
      -> get_upcoming_fixtures(league_id, season, next_n)
 
-Both return data already shaped for dixon_coles_model.py, so you can
-swap this in for the demo's free JSON loader with no other changes.
+Both return data shaped exactly the same as the previous API-Football
+version, so pipeline.py and db_utils.py need NO changes:
+
+  get_results()           -> date, home_team, away_team, home_goals,
+                              away_goals, fixture_id
+  get_upcoming_fixtures() -> fixture_id, date, home_team, away_team
+
+## Why football-data.org instead of API-Football
+
+API-Football's free tier only allows historical seasons 2022-2024 —
+it has no access to the current season, which makes it useless for a
+"predict today's/upcoming matches" site. football-data.org's free
+tier DOES include current-season data for the competitions below, at
+the cost of a stricter rate limit (10 requests/minute) and fewer
+leagues covered.
 
 ## Getting an API key
 
-1. Sign up at https://www.api-football.com/ or https://dashboard.api-football.com/
-   (free tier: 100 requests/day, no card required, all endpoints included).
-2. Copy your key from the dashboard.
-3. Set it as an environment variable rather than hardcoding it:
+1. Sign up at https://www.football-data.org/client/register
+   (free, no card required — you get a key immediately by email).
+2. Set it as an environment variable rather than hardcoding it:
 
-       export API_FOOTBALL_KEY="your-key-here"
+       export FOOTBALL_DATA_API_KEY="your-key-here"
 
-## Common league IDs (season = the year the season starts, e.g. 2025 for 2025/26)
+## League ID mapping
 
-    39   English Premier League
-    140  Spanish La Liga
-    135  Italian Serie A
-    78   German Bundesliga
-    61   French Ligue 1
-    88   Dutch Eredivisie
-    203  Turkish Super Lig
-    (Full list: GET https://v3.football.api-sports.io/leagues)
+pipeline.py's LEAGUES dict uses API-Football-style numeric IDs. This
+module maps those same IDs to football-data.org's competition codes,
+so LEAGUES in pipeline.py does not need to change. Only leagues
+covered by football-data.org's free tier are included here — if you
+add a league ID to pipeline.py that isn't in this map, you'll get a
+clear error rather than a silent failure.
+
+    39   -> PL   English Premier League
+    140  -> PD   Spanish La Liga
+    135  -> SA   Italian Serie A
+    78   -> BL1  German Bundesliga
+    61   -> FL1  French Ligue 1
+    88   -> DED  Dutch Eredivisie
+    94   -> PPL  Portuguese Primeira Liga
+    2    -> CL   UEFA Champions League
+
+(Full competition list: GET https://api.football-data.org/v4/competitions)
 
 ## A note on rate limits
 
-The free tier is 100 requests/day. Fetching a full season of results is
-ONE request (paginated in blocks of ~100 fixtures, so a full season is
-usually 1-4 requests). Don't call this on every prediction — cache
-results in your database (see schema.sql) and only re-fetch new/changed
-fixtures.
+Free tier: 10 requests/minute. Each call here is a single request
+(the API returns a whole season's matches in one response, no
+pagination needed for these competitions), so a 3-league pipeline run
+is well within limits. A small delay + retry-on-429 is included for
+safety regardless.
 
 ## A note on testing
 
-This module makes live calls to v3.football.api-sports.io. It could not
+This module makes live calls to api.football-data.org. It could not
 be executed inside the sandbox this project was built in (that
-environment only allows outbound calls to a fixed list of package-registry
-domains, not third-party APIs) — so test it in your own environment
-with a real key before wiring it into the pipeline. The request/response
-shapes follow API-Football's published v3 documentation.
+environment only allows outbound calls to a fixed list of
+package-registry domains, not third-party APIs) — so test it in your
+own environment with a real key before relying on it. The
+request/response shapes follow football-data.org's published v4
+documentation.
 """
 
 from __future__ import annotations
@@ -55,35 +77,71 @@ from __future__ import annotations
 import os
 import time
 import urllib.request
+import urllib.error
 import urllib.parse
 import json
 import pandas as pd
 
-BASE_URL = "https://v3.football.api-sports.io"
+BASE_URL = "https://api.football-data.org/v4"
+
+# Maps the same numeric league IDs pipeline.py already uses to
+# football-data.org's competition codes. Add more here if you add
+# leagues to pipeline.py's LEAGUES dict -- check they're covered by
+# your plan at https://www.football-data.org/coverage first.
+LEAGUE_ID_TO_CODE = {
+    39: "PL",
+    140: "PD",
+    135: "SA",
+    78: "BL1",
+    61: "FL1",
+    88: "DED",
+    94: "PPL",
+    2: "CL",
+}
 
 
 def _get_api_key() -> str:
-    key = os.environ.get("API_FOOTBALL_KEY")
+    key = os.environ.get("FOOTBALL_DATA_API_KEY")
     if not key:
         raise RuntimeError(
-            "Set the API_FOOTBALL_KEY environment variable with your API-Football key."
+            "Set the FOOTBALL_DATA_API_KEY environment variable with your "
+            "football-data.org key (free at https://www.football-data.org/client/register)."
         )
     return key
 
 
-def _request(endpoint: str, params: dict) -> dict:
-    """Low-level GET against the API-Football v3 REST API."""
-    url = f"{BASE_URL}/{endpoint}?{urllib.parse.urlencode(params)}"
-    req = urllib.request.Request(url, headers={"x-apisports-key": _get_api_key()})
-    with urllib.request.urlopen(req) as resp:
-        payload = json.loads(resp.read().decode())
+def _competition_code(league_id: int) -> str:
+    code = LEAGUE_ID_TO_CODE.get(league_id)
+    if not code:
+        raise RuntimeError(
+            f"League ID {league_id} isn't mapped to a football-data.org competition "
+            f"code. Known IDs: {sorted(LEAGUE_ID_TO_CODE)}. Add it to LEAGUE_ID_TO_CODE "
+            f"in fixtures_api.py (check coverage at https://www.football-data.org/coverage first)."
+        )
+    return code
 
-    if payload.get("errors"):
-        raise RuntimeError(f"API-Football error: {payload['errors']}")
-    return payload
+
+def _request(path: str, params: dict, max_retries: int = 3) -> dict:
+    """Low-level GET against the football-data.org v4 REST API, with
+    basic retry on the free tier's rate limit (HTTP 429)."""
+    url = f"{BASE_URL}{path}?{urllib.parse.urlencode(params)}"
+    req = urllib.request.Request(url, headers={"X-Auth-Token": _get_api_key()})
+
+    for attempt in range(1, max_retries + 1):
+        try:
+            with urllib.request.urlopen(req) as resp:
+                return json.loads(resp.read().decode())
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and attempt < max_retries:
+                time.sleep(6)  # brief backoff, then retry within the 10/min window
+                continue
+            body = e.read().decode(errors="ignore")
+            raise RuntimeError(f"football-data.org error ({e.code}): {body}") from e
+
+    raise RuntimeError("football-data.org error: exceeded retries after repeated 429s")
 
 
-def get_results(league_id: int, season: int, max_pages: int = 5) -> pd.DataFrame:
+def get_results(league_id: int, season: int) -> pd.DataFrame:
     """
     Fetch completed matches for a league/season, shaped for
     dixon_coles_model.fit_dixon_coles().
@@ -91,36 +149,31 @@ def get_results(league_id: int, season: int, max_pages: int = 5) -> pd.DataFrame
     Returns columns: date, home_team, away_team, home_goals, away_goals,
     plus fixture_id (useful as the external key back into your `matches` table).
     """
+    code = _competition_code(league_id)
+    data = _request(
+        f"/competitions/{code}/matches",
+        {"season": season, "status": "FINISHED"},
+    )
+
     rows = []
-    page = 1
-    while page <= max_pages:
-        data = _request(
-            "fixtures",
+    for m in data.get("matches", []):
+        full_time = m.get("score", {}).get("fullTime", {})
+        home_goals = full_time.get("home")
+        away_goals = full_time.get("away")
+        if home_goals is None or away_goals is None:
+            continue  # skip anything without a final score (e.g. abandoned matches)
+        rows.append(
             {
-                "league": league_id,
-                "season": season,
-                "status": "FT",  # full-time only, i.e. completed matches
-                "page": page,
-            },
+                "fixture_id": m["id"],
+                "date": m["utcDate"][:10],
+                "home_team": m["homeTeam"]["name"],
+                "away_team": m["awayTeam"]["name"],
+                "home_goals": home_goals,
+                "away_goals": away_goals,
+            }
         )
-        for item in data["response"]:
-            rows.append(
-                {
-                    "fixture_id": item["fixture"]["id"],
-                    "date": item["fixture"]["date"][:10],
-                    "home_team": item["teams"]["home"]["name"],
-                    "away_team": item["teams"]["away"]["name"],
-                    "home_goals": item["goals"]["home"],
-                    "away_goals": item["goals"]["away"],
-                }
-            )
 
-        paging = data.get("paging", {"current": 1, "total": 1})
-        if paging["current"] >= paging["total"]:
-            break
-        page += 1
-        time.sleep(0.5)  # be polite to the free-tier rate limit
-
+    time.sleep(1)  # stay comfortably within 10 requests/minute across leagues
     return pd.DataFrame(rows)
 
 
@@ -131,18 +184,26 @@ def get_upcoming_fixtures(league_id: int, season: int, next_n: int = 10) -> pd.D
     Returns columns: fixture_id, date, home_team, away_team — feed
     (home_team, away_team) straight into model.predict_match().
     """
+    code = _competition_code(league_id)
     data = _request(
-        "fixtures",
-        {"league": league_id, "season": season, "next": next_n},
+        f"/competitions/{code}/matches",
+        {"season": season, "status": "SCHEDULED"},
     )
+
     rows = []
-    for item in data["response"]:
+    for m in data.get("matches", []):
         rows.append(
             {
-                "fixture_id": item["fixture"]["id"],
-                "date": item["fixture"]["date"][:10],
-                "home_team": item["teams"]["home"]["name"],
-                "away_team": item["teams"]["away"]["name"],
+                "fixture_id": m["id"],
+                "date": m["utcDate"][:10],
+                "home_team": m["homeTeam"]["name"],
+                "away_team": m["awayTeam"]["name"],
             }
         )
-    return pd.DataFrame(rows)
+
+    # football-data.org doesn't take a "next N" param directly like
+    # API-Football did -- it returns all scheduled matches for the
+    # season, so sort by date and take the first N ourselves.
+    rows.sort(key=lambda r: r["date"])
+    time.sleep(1)  # stay comfortably within 10 requests/minute across leagues
+    return pd.DataFrame(rows[:next_n])
