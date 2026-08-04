@@ -28,7 +28,7 @@ jobs:
 
       - name: Run pipeline
         env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          FOOTBALL_DATA_API_KEY: ${{ secrets.FOOTBALL_DATA_API_KEY }}
         run: python pipeline.py
 
       - name: Commit updated predictions + database
