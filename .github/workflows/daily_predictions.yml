@@ -36,9 +36,8 @@ jobs:
           git config user.name "prediction-bot"
           git config user.email "actions@github.com"
           git add predictions_output.json predictions_output.csv predictions.db accuracy_report.json
+          git add predictions_today.json predictions_tomorrow.json predictions_upcoming.json resolved_predictions.json
           git add accuracy_detail.csv || true
-          git diff --cached --quiet || git commit -m "Daily predictions + accuracy update: $(date -u +%Y-%m-%d)"
-          git push
 
 
 
