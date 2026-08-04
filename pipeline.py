@@ -12,16 +12,24 @@ job with no manual intervention:
   2. Fetch upcoming fixtures for the current season, store in SQLite.
   3. Refit the model on all stored results.
   4. Predict every upcoming fixture.
-  5. Store predictions in SQLite AND export them as JSON/CSV for
-     publishing (Power BI, a website, a WhatsApp digest — whatever the
-     front end ends up being, it can just read these files or query
-     the DB directly).
+  5. Publish several JSON files for the front end, each already
+     filtered to what that page needs:
+       - predictions_today.json      fixtures dated today
+       - predictions_tomorrow.json   fixtures dated tomorrow
+       - predictions_upcoming.json   fixtures beyond tomorrow
+       - resolved_predictions.json   past predictions vs actual results,
+                                      with correctness flags per market
+       - predictions_output.json/csv the full raw list (Power BI / Excel)
+     A separate, much more frequent job (live_update.py) refreshes
+     live scores for today's matches only — see live_scores.yml.
 
 Configure the leagues to cover in LEAGUES below. Everything else is
 automatic.
 """
 
 import json
+from datetime import datetime, timedelta, timezone
+
 import pandas as pd
 
 import db_utils
@@ -102,6 +110,81 @@ def run_league(conn, league_id: int, league_name: str):
     return predictions
 
 
+def _predicted_result(row) -> str:
+    probs = {
+        "home_win": row["prob_home_win"],
+        "draw": row["prob_draw"],
+        "away_win": row["prob_away_win"],
+    }
+    return max(probs, key=probs.get)
+
+
+def build_resolved_predictions(conn) -> list[dict]:
+    """
+    Every past prediction joined against what actually happened,
+    with correctness computed straight from the raw probabilities
+    (not from top_pick's text, since its exact wording/market isn't
+    guaranteed) — this is what powers Yesterday, All Dates history,
+    and the rolling accuracy stats page.
+    """
+    resolved = db_utils.load_resolved(conn)
+    if resolved.empty:
+        return []
+
+    resolved["league"] = resolved["league_id"].map(LEAGUES)
+
+    resolved["actual_result"] = [
+        "home_win" if h > a else ("away_win" if h < a else "draw")
+        for h, a in zip(resolved["actual_home_goals"], resolved["actual_away_goals"])
+    ]
+    resolved["predicted_result"] = resolved.apply(_predicted_result, axis=1)
+    resolved["result_correct"] = resolved["predicted_result"] == resolved["actual_result"]
+
+    resolved["actual_btts"] = (resolved["actual_home_goals"] > 0) & (resolved["actual_away_goals"] > 0)
+    resolved["predicted_btts"] = resolved["prob_btts_yes"] >= 0.5
+    resolved["btts_correct"] = resolved["actual_btts"] == resolved["predicted_btts"]
+
+    total_goals = resolved["actual_home_goals"] + resolved["actual_away_goals"]
+    resolved["actual_over_2_5"] = total_goals > 2.5
+    resolved["predicted_over_2_5"] = resolved["prob_over_2_5"] >= 0.5
+    resolved["over_2_5_correct"] = resolved["actual_over_2_5"] == resolved["predicted_over_2_5"]
+
+    # Keep the published file to a sane size -- last 90 days is plenty
+    # for "Yesterday", "All Dates" history, and 30-day rolling stats.
+    cutoff = (datetime.now(timezone.utc).date() - timedelta(days=90)).isoformat()
+    resolved = resolved[resolved["date"] >= cutoff]
+
+    return json.loads(resolved.to_json(orient="records"))
+
+
+def publish(conn, all_predictions: list[dict]):
+    today = datetime.now(timezone.utc).date()
+    tomorrow_s = (today + timedelta(days=1)).isoformat()
+    today_s = today.isoformat()
+
+    todays = [p for p in all_predictions if p.get("date") == today_s]
+    tomorrows = [p for p in all_predictions if p.get("date") == tomorrow_s]
+    later = [p for p in all_predictions if p.get("date", "") > tomorrow_s]
+
+    with open("predictions_today.json", "w") as f:
+        json.dump(todays, f, indent=2)
+    with open("predictions_tomorrow.json", "w") as f:
+        json.dump(tomorrows, f, indent=2)
+    with open("predictions_upcoming.json", "w") as f:
+        json.dump(later, f, indent=2)
+    print(f"Bucketed: {len(todays)} today, {len(tomorrows)} tomorrow, {len(later)} later.")
+
+    resolved = build_resolved_predictions(conn)
+    with open("resolved_predictions.json", "w") as f:
+        json.dump(resolved, f, indent=2)
+    print(f"Published {len(resolved)} resolved predictions (last 90 days).")
+
+    # Full raw list, unchanged -- kept for Power BI / Excel / any other consumer.
+    with open("predictions_output.json", "w") as f:
+        json.dump(all_predictions, f, indent=2)
+    pd.DataFrame(all_predictions).to_csv("predictions_output.csv", index=False)
+
+
 def main():
     db_utils.init_db()
     all_predictions = []
@@ -113,13 +196,9 @@ def main():
                 p["league"] = league_name
             all_predictions.extend(preds)
 
-    # Publish: JSON for any downstream consumer, CSV for Power BI / Excel.
-    with open("predictions_output.json", "w") as f:
-        json.dump(all_predictions, f, indent=2)
-    pd.DataFrame(all_predictions).to_csv("predictions_output.csv", index=False)
+        publish(conn, all_predictions)
 
-    print(f"\nDone. {len(all_predictions)} predictions published to "
-          f"predictions_output.json / predictions_output.csv and predictions.db")
+    print(f"\nDone. {len(all_predictions)} predictions published.")
 
     # Score every prediction whose match has now been played, and publish
     # an up-to-date accuracy report — this is what turns "trust me" into
