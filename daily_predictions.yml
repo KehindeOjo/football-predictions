@@ -1,0 +1,36 @@
+name: Daily Football Predictions
+
+# Runs the full pipeline automatically every day — fetch results,
+# fetch upcoming fixtures, refit the model, predict, publish.
+# No manual steps once this is set up.
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # 06:00 UTC daily — adjust to taste
+  workflow_dispatch:        # lets you also trigger it manually from the Actions tab
+
+jobs:
+  predict:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pandas numpy scipy
+
+      - name: Run pipeline
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: python pipeline.py
+
+      - name: Commit updated predictions + database
+        run: |
+          git config user.name "prediction-bot"
+          git config user.email "actions@github.com"
+          git add predictions_output.json predictions_output.csv predictions.db accuracy_report.json accuracy_detail.csv
+          git diff --cached --quiet || git commit -m "Daily predictions + accuracy update: $(date -u +%Y-%m-%d)"
+          git push
