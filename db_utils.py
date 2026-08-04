@@ -154,3 +154,50 @@ def load_results_for_training(conn, league_id: int):
         conn,
         params=(league_id,),
     )
+
+
+def load_resolved(conn):
+    """
+    Every prediction whose match has actually been played, joined against
+    the real final score. This is the source of truth for the Yesterday
+    page, the All Dates history, and the rolling accuracy stats page —
+    each of those computes its own view (a single day, a rolling window,
+    etc.) from this same underlying data rather than needing separate
+    queries.
+
+    Returns one row per resolved prediction: league_id, date, teams,
+    actual scores, and every predicted probability/market the model
+    produced. Correctness per market (1X2 / BTTS / Over 2.5) is computed
+    downstream in pipeline.py from the raw probabilities, not here, so
+    this function has no opinion on how "correct" is defined.
+    """
+    import pandas as pd
+
+    return pd.read_sql_query(
+        """
+        SELECT
+            p.external_fixture_id AS fixture_id,
+            m.league_id,
+            p.match_date AS date,
+            p.home_team,
+            p.away_team,
+            m.home_goals AS actual_home_goals,
+            m.away_goals AS actual_away_goals,
+            p.expected_goals_home,
+            p.expected_goals_away,
+            p.prob_home_win,
+            p.prob_draw,
+            p.prob_away_win,
+            p.prob_btts_yes,
+            p.prob_over_2_5,
+            p.top_pick,
+            p.top_pick_confidence
+        FROM predictions p
+        JOIN matches m ON m.external_fixture_id = p.external_fixture_id
+        WHERE m.status = 'played'
+          AND m.home_goals IS NOT NULL
+          AND m.away_goals IS NOT NULL
+        ORDER BY p.match_date DESC
+        """,
+        conn,
+    )
