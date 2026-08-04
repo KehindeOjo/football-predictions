@@ -38,6 +38,9 @@ jobs:
           git add predictions_output.json predictions_output.csv predictions.db accuracy_report.json
           git add predictions_today.json predictions_tomorrow.json predictions_upcoming.json resolved_predictions.json
           git add accuracy_detail.csv || true
+          git add accuracy_detail.csv || true
+          git diff --cached --quiet || git commit -m "Daily predictions update: $(date -u +%F)"
+          git push
 
 
 
