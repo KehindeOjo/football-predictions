@@ -5,8 +5,11 @@ This is the "AI handles everything" entry point — run once a day (via
 cron or the included GitHub Actions workflow) and it does the whole
 job with no manual intervention:
 
-  1. Fetch newly completed results from API-Football, store in SQLite.
-  2. Fetch upcoming fixtures, store in SQLite.
+  1. Fetch newly completed results from football-data.org, store in SQLite.
+     Pulls both the previous completed season AND the current season's
+     results-so-far, so there's always enough history to fit a model
+     even in the first weeks of a new season.
+  2. Fetch upcoming fixtures for the current season, store in SQLite.
   3. Refit the model on all stored results.
   4. Predict every upcoming fixture.
   5. Store predictions in SQLite AND export them as JSON/CSV for
@@ -29,34 +32,52 @@ from dixon_coles_model import fit_dixon_coles
 MODEL_VERSION = "dixon-coles-v1"
 
 # Add/remove leagues here — this is the only manual configuration needed.
+# IDs must be present in fixtures_api.LEAGUE_ID_TO_CODE.
 LEAGUES = {
     39: "English Premier League",
     140: "Spanish La Liga",
     135: "Italian Serie A",
 }
-SEASON = 2026  # year the season started
+
+SEASON = 2026  # year the CURRENT season started — used for upcoming fixtures
+TRAINING_SEASONS = [SEASON - 1, SEASON]  # previous + current, for model fitting
 
 
 def run_league(conn, league_id: int, league_name: str):
     print(f"\n=== {league_name} (league_id={league_id}) ===")
 
     print("Fetching completed results...")
-    try:
-        results = get_results(league_id, SEASON)
-    except RuntimeError as e:
-        print(f"Skipping {league_name}: {e}")
-        return []  # return empty list so main() can continue
+    results_frames = []
+    for season in TRAINING_SEASONS:
+        try:
+            season_results = get_results(league_id, season)
+        except RuntimeError as e:
+            print(f"  Skipping season {season}: {e}")
+            continue
+        print(f"  Season {season}: {len(season_results)} completed matches.")
+        if not season_results.empty:
+            results_frames.append(season_results)
 
-    results["home_goals"] = results["home_goals"]
-    results["away_goals"] = results["away_goals"]
+    if not results_frames:
+        print(f"No completed results available for {league_name} — skipping.")
+        return []
+
+    results = pd.concat(results_frames, ignore_index=True)
     db_utils.upsert_matches(conn, results, league_id, status="played")
-    print(f"Stored {len(results)} completed matches.")
-
+    print(f"Stored {len(results)} completed matches total.")
 
     print("Fetching upcoming fixtures...")
-    upcoming = get_upcoming_fixtures(league_id, SEASON, next_n=15)
+    try:
+        upcoming = get_upcoming_fixtures(league_id, SEASON, next_n=15)
+    except RuntimeError as e:
+        print(f"Skipping upcoming fixtures for {league_name}: {e}")
+        return []
     db_utils.upsert_matches(conn, upcoming, league_id, status="scheduled")
     print(f"Stored {len(upcoming)} upcoming fixtures.")
+
+    if upcoming.empty:
+        print("No upcoming fixtures yet (season may not have a published schedule) — skipping.")
+        return []
 
     training_data = db_utils.load_results_for_training(conn, league_id)
     if len(training_data) < 20:
@@ -95,7 +116,6 @@ def main():
     # Publish: JSON for any downstream consumer, CSV for Power BI / Excel.
     with open("predictions_output.json", "w") as f:
         json.dump(all_predictions, f, indent=2)
-
     pd.DataFrame(all_predictions).to_csv("predictions_output.csv", index=False)
 
     print(f"\nDone. {len(all_predictions)} predictions published to "
