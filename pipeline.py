@@ -34,7 +34,7 @@ LEAGUES = {
     140: "Spanish La Liga",
     135: "Italian Serie A",
 }
-SEASON = 2025  # year the season started
+SEASON = 2026  # year the season started
 
 
 def run_league(conn, league_id: int, league_name: str):
