@@ -1,34 +1,23 @@
 """
 football-data.org client.
 
-Handles the two things the prediction pipeline needs from a real
-fixtures provider:
+Handles what the prediction pipeline and the live-score refresher need:
 
   1. Historical results, to train/refit the model
      -> get_results(league_id, season)
   2. Upcoming fixtures, to generate predictions for
      -> get_upcoming_fixtures(league_id, season, next_n)
+  3. Today's matches with current status (SCHEDULED / IN_PLAY / PAUSED /
+     FINISHED) and live score, for the frequent live-score refresh
+     -> get_today_status(league_id)
 
-Both return data shaped exactly the same as the previous API-Football
-version, so pipeline.py and db_utils.py need NO changes:
-
-  get_results()           -> date, home_team, away_team, home_goals,
-                              away_goals, fixture_id
-  get_upcoming_fixtures() -> fixture_id, date, home_team, away_team
-
-## Why football-data.org instead of API-Football
-
-API-Football's free tier only allows historical seasons 2022-2024 —
-it has no access to the current season, which makes it useless for a
-"predict today's/upcoming matches" site. football-data.org's free
-tier DOES include current-season data for the competitions below, at
-the cost of a stricter rate limit (10 requests/minute) and fewer
-leagues covered.
+All three return data shaped for the rest of the pipeline, so nothing
+downstream needs to know which provider this is.
 
 ## Getting an API key
 
 1. Sign up at https://www.football-data.org/client/register
-   (free, no card required — you get a key immediately by email).
+   (free, no card required).
 2. Set it as an environment variable rather than hardcoding it:
 
        export FOOTBALL_DATA_API_KEY="your-key-here"
@@ -55,16 +44,15 @@ clear error rather than a silent failure.
 
 ## A note on rate limits
 
-Free tier: 10 requests/minute. Each call here is a single request
-(the API returns a whole season's matches in one response, no
-pagination needed for these competitions), so a 3-league pipeline run
-is well within limits. A small delay + retry-on-429 is included for
-safety regardless.
+Free tier: 10 requests/minute. Each call here is a single request, so
+even the frequent live-score job (a handful of leagues, every ~15
+minutes) stays comfortably within limits. A small delay + retry-on-429
+is included regardless.
 
 ## A note on testing
 
-This module makes live calls to api.football-data.org. It could not
-be executed inside the sandbox this project was built in (that
+This module makes live calls to api.football-data.org. It could not be
+executed inside the sandbox this project was built in (that
 environment only allows outbound calls to a fixed list of
 package-registry domains, not third-party APIs) — so test it in your
 own environment with a real key before relying on it. The
@@ -80,6 +68,8 @@ import urllib.request
 import urllib.error
 import urllib.parse
 import json
+from datetime import datetime, timezone
+
 import pandas as pd
 
 BASE_URL = "https://api.football-data.org/v4"
@@ -207,3 +197,42 @@ def get_upcoming_fixtures(league_id: int, season: int, next_n: int = 10) -> pd.D
     rows.sort(key=lambda r: r["date"])
     time.sleep(1)  # stay comfortably within 10 requests/minute across leagues
     return pd.DataFrame(rows[:next_n])
+
+
+def get_today_status(league_id: int) -> pd.DataFrame:
+    """
+    Fetch every match happening today for a league, with its CURRENT
+    status and score — whatever that is right now (not yet started,
+    in play, half-time, finished). This is the lightweight call the
+    frequent live-score job uses; it does NOT touch season/training
+    data at all, so it's fast and cheap on the rate limit.
+
+    Returns columns: fixture_id, status, home_team, away_team,
+    home_goals, away_goals (goals are None until the match has kicked off).
+
+    Note: the free tier does not expose a live match "minute" clock —
+    only the status (SCHEDULED / IN_PLAY / PAUSED / FINISHED) and score.
+    """
+    code = _competition_code(league_id)
+    today = datetime.now(timezone.utc).date().isoformat()
+    data = _request(
+        f"/competitions/{code}/matches",
+        {"dateFrom": today, "dateTo": today},
+    )
+
+    rows = []
+    for m in data.get("matches", []):
+        full_time = m.get("score", {}).get("fullTime", {})
+        rows.append(
+            {
+                "fixture_id": m["id"],
+                "status": m["status"],
+                "home_team": m["homeTeam"]["name"],
+                "away_team": m["awayTeam"]["name"],
+                "home_goals": full_time.get("home"),
+                "away_goals": full_time.get("away"),
+            }
+        )
+
+    time.sleep(1)
+    return pd.DataFrame(rows)
