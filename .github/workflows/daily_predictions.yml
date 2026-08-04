@@ -1,3 +1,7 @@
+permissions:
+  contents: write
+
+
 name: Daily Football Predictions
 
 # Runs the full pipeline automatically every day — fetch results,
