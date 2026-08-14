@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "home_team": "Deportivo Alav\u00e9s",
+    "away_team": "Getafe CF",
+    "expected_goals_home": 1.01,
+    "expected_goals_away": 0.77,
+    "prob_home_win": 0.4025,
+    "prob_draw": 0.324,
+    "prob_away_win": 0.2735,
+    "prob_btts_yes": 0.3386,
+    "prob_over_2_5": 0.263,
+    "prob_under_2_5": 0.737,
+    "top_pick": "Home Win",
+    "top_pick_confidence": 0.4025,
+    "fixture_id": 564634,
+    "date": "2026-08-15",
+    "league": "Spanish La Liga"
+  },
+  {
+    "home_team": "Sevilla FC",
+    "away_team": "Rayo Vallecano de Madrid",
+    "expected_goals_home": 1.13,
+    "expected_goals_away": 1.05,
+    "prob_home_win": 0.3768,
+    "prob_draw": 0.288,
+    "prob_away_win": 0.3352,
+    "prob_btts_yes": 0.4387,
+    "prob_over_2_5": 0.3729,
+    "prob_under_2_5": 0.6271,
+    "top_pick": "Home Win",
+    "top_pick_confidence": 0.3768,
+    "fixture_id": 564633,
+    "date": "2026-08-15",
+    "league": "Spanish La Liga"
+  }
+]
