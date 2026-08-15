@@ -10,10 +10,10 @@
   },
   {
     "fixture_id": 564633,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Sevilla FC",
     "away_team": "Rayo Vallecano de Madrid",
-    "home_goals": 1,
+    "home_goals": 2,
     "away_goals": 1,
     "league": "Spanish La Liga"
   }
