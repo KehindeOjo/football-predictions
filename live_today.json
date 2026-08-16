@@ -1,20 +1,20 @@
 [
   {
-    "fixture_id": 564634,
-    "status": "FINISHED",
-    "home_team": "Deportivo Alav\u00e9s",
-    "away_team": "Getafe CF",
-    "home_goals": 3,
-    "away_goals": 0,
+    "fixture_id": 564629,
+    "status": "TIMED",
+    "home_team": "Real Racing Club de Santander",
+    "away_team": "Villarreal CF",
+    "home_goals": null,
+    "away_goals": null,
     "league": "Spanish La Liga"
   },
   {
-    "fixture_id": 564633,
-    "status": "FINISHED",
-    "home_team": "Sevilla FC",
-    "away_team": "Rayo Vallecano de Madrid",
-    "home_goals": 2,
-    "away_goals": 1,
+    "fixture_id": 564632,
+    "status": "TIMED",
+    "home_team": "RCD Espanyol de Barcelona",
+    "away_team": "Levante UD",
+    "home_goals": null,
+    "away_goals": null,
     "league": "Spanish La Liga"
   }
 ]
