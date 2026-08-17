@@ -1,3 +1,4 @@
 prediction_id,model_version,external_fixture_id,home_team,away_team,match_date,prob_home_win,prob_draw,prob_away_win,prob_btts_yes,prob_over_2_5,top_pick,home_goals,away_goals,league_id,actual_outcome,outcome_correct,actual_btts,btts_predicted_yes,btts_correct,actual_over_2_5,over_predicted,over_under_correct
 12,dixon-coles-v1,564634,Deportivo Alavés,Getafe CF,2026-08-15,0.4025,0.324,0.2735,0.3386,0.263,Home Win,3,0,140,Home Win,True,False,False,True,True,False,False
 13,dixon-coles-v1,564633,Sevilla FC,Rayo Vallecano de Madrid,2026-08-15,0.3768,0.288,0.3352,0.4387,0.3729,Home Win,2,1,140,Home Win,True,True,False,False,True,False,False
+14,dixon-coles-v1,564632,RCD Espanyol de Barcelona,Levante UD,2026-08-16,0.4533,0.256,0.2907,0.5145,0.4763,Home Win,3,0,140,Home Win,True,False,True,False,True,False,False
