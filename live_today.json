@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "fixture_id": 564628,
+    "status": "TIMED",
+    "home_team": "Club Atl\u00e9tico de Madrid",
+    "away_team": "M\u00e1laga CF",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "Spanish La Liga"
+  }
+]
