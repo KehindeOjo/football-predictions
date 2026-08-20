@@ -1,11 +1,11 @@
 [
   {
-    "fixture_id": 564628,
-    "status": "FINISHED",
-    "home_team": "Club Atl\u00e9tico de Madrid",
-    "away_team": "M\u00e1laga CF",
-    "home_goals": 2,
-    "away_goals": 0,
+    "fixture_id": 564638,
+    "status": "TIMED",
+    "home_team": "Rayo Vallecano de Madrid",
+    "away_team": "Deportivo Alav\u00e9s",
+    "home_goals": null,
+    "away_goals": null,
     "league": "Spanish La Liga"
   }
 ]
