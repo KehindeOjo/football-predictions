@@ -1,19 +1,19 @@
 [
   {
-    "home_team": "Rayo Vallecano de Madrid",
-    "away_team": "Deportivo Alav\u00e9s",
-    "expected_goals_home": 1.48,
-    "expected_goals_away": 0.96,
-    "prob_home_win": 0.4933,
-    "prob_draw": 0.2622,
-    "prob_away_win": 0.2445,
-    "prob_btts_yes": 0.4751,
-    "prob_over_2_5": 0.4394,
-    "prob_under_2_5": 0.5606,
+    "home_team": "Real Betis Balompi\u00e9",
+    "away_team": "Real Sociedad de F\u00fatbol",
+    "expected_goals_home": 2.3,
+    "expected_goals_away": 1.27,
+    "prob_home_win": 0.6046,
+    "prob_draw": 0.1938,
+    "prob_away_win": 0.2016,
+    "prob_btts_yes": 0.6464,
+    "prob_over_2_5": 0.6911,
+    "prob_under_2_5": 0.3089,
     "top_pick": "Home Win",
-    "top_pick_confidence": 0.4933,
-    "fixture_id": 564638,
-    "date": "2026-08-20",
+    "top_pick_confidence": 0.6046,
+    "fixture_id": 564647,
+    "date": "2026-08-21",
     "league": "Spanish La Liga"
   }
 ]
