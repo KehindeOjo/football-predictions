@@ -1,10 +1,10 @@
 [
   {
     "fixture_id": 560542,
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "home_team": "Arsenal FC",
     "away_team": "Coventry City FC",
-    "home_goals": 2,
+    "home_goals": 3,
     "away_goals": 0,
     "league": "English Premier League"
   },
