@@ -19,11 +19,11 @@
   },
   {
     "fixture_id": 560545,
-    "status": "TIMED",
+    "status": "PAUSED",
     "home_team": "Nottingham Forest FC",
     "away_team": "Leeds United FC",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": 0.0,
+    "away_goals": 0.0,
     "league": "English Premier League"
   },
   {
