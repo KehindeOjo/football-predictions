@@ -49,26 +49,26 @@
     "status": "FINISHED",
     "home_team": "Athletic Club",
     "away_team": "Sevilla FC",
-    "home_goals": 1.0,
-    "away_goals": 3.0,
+    "home_goals": 1,
+    "away_goals": 3,
     "league": "Spanish La Liga"
   },
   {
     "fixture_id": 564643,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Valencia CF",
     "away_team": "RC Celta de Vigo",
-    "home_goals": 0.0,
-    "away_goals": 0.0,
+    "home_goals": 0,
+    "away_goals": 0,
     "league": "Spanish La Liga"
   },
   {
     "fixture_id": 564645,
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "home_team": "RCD Espanyol de Barcelona",
     "away_team": "Real Madrid CF",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": 0,
+    "away_goals": 0,
     "league": "Spanish La Liga"
   },
   {
@@ -91,7 +91,7 @@
   },
   {
     "fixture_id": 558631,
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "home_team": "Genoa CFC",
     "away_team": "SSC Napoli",
     "home_goals": 0,
@@ -100,7 +100,7 @@
   },
   {
     "fixture_id": 558636,
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "home_team": "Parma Calcio 1913",
     "away_team": "Cagliari Calcio",
     "home_goals": 0,
