@@ -64,7 +64,7 @@
   },
   {
     "fixture_id": 564645,
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "home_team": "RCD Espanyol de Barcelona",
     "away_team": "Real Madrid CF",
     "home_goals": 1,
@@ -91,7 +91,7 @@
   },
   {
     "fixture_id": 558631,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Genoa CFC",
     "away_team": "SSC Napoli",
     "home_goals": 0,
@@ -100,7 +100,7 @@
   },
   {
     "fixture_id": 558636,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Parma Calcio 1913",
     "away_team": "Cagliari Calcio",
     "home_goals": 0,
