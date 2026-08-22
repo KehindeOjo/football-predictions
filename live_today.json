@@ -40,13 +40,13 @@
     "status": "IN_PLAY",
     "home_team": "Brentford FC",
     "away_team": "Tottenham Hotspur FC",
-    "home_goals": 0,
+    "home_goals": 2,
     "away_goals": 0,
     "league": "English Premier League"
   },
   {
     "fixture_id": 564641,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Athletic Club",
     "away_team": "Sevilla FC",
     "home_goals": 1.0,
@@ -76,7 +76,7 @@
     "status": "IN_PLAY",
     "home_team": "Udinese Calcio",
     "away_team": "Como 1907",
-    "home_goals": 0.0,
+    "home_goals": 1.0,
     "away_goals": 0.0,
     "league": "Italian Serie A"
   },
@@ -86,7 +86,7 @@
     "home_team": "FC Internazionale Milano",
     "away_team": "AC Monza",
     "home_goals": 1.0,
-    "away_goals": 0.0,
+    "away_goals": 1.0,
     "league": "Italian Serie A"
   },
   {
