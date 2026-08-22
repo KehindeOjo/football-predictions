@@ -37,7 +37,7 @@
   },
   {
     "fixture_id": 560547,
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "home_team": "Brentford FC",
     "away_team": "Tottenham Hotspur FC",
     "home_goals": 2,
@@ -73,7 +73,7 @@
   },
   {
     "fixture_id": 558629,
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "home_team": "Udinese Calcio",
     "away_team": "Como 1907",
     "home_goals": 1.0,
@@ -82,7 +82,7 @@
   },
   {
     "fixture_id": 558632,
-    "status": "IN_PLAY",
+    "status": "PAUSED",
     "home_team": "FC Internazionale Milano",
     "away_team": "AC Monza",
     "home_goals": 1.0,
