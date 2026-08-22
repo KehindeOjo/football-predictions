@@ -10,7 +10,7 @@
   },
   {
     "fixture_id": 560544,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Ipswich Town FC",
     "away_team": "Sunderland AFC",
     "home_goals": 2.0,
@@ -19,7 +19,7 @@
   },
   {
     "fixture_id": 560545,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Nottingham Forest FC",
     "away_team": "Leeds United FC",
     "home_goals": 0.0,
@@ -28,7 +28,7 @@
   },
   {
     "fixture_id": 560546,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Everton FC",
     "away_team": "Crystal Palace FC",
     "home_goals": 2.0,
@@ -46,7 +46,7 @@
   },
   {
     "fixture_id": 564641,
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "home_team": "Athletic Club",
     "away_team": "Sevilla FC",
     "home_goals": 0.0,
