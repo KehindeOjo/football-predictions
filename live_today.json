@@ -4,8 +4,8 @@
     "status": "FINISHED",
     "home_team": "Hull City AFC",
     "away_team": "Manchester United FC",
-    "home_goals": 2.0,
-    "away_goals": 0.0,
+    "home_goals": 2,
+    "away_goals": 0,
     "league": "English Premier League"
   },
   {
@@ -13,8 +13,8 @@
     "status": "FINISHED",
     "home_team": "Ipswich Town FC",
     "away_team": "Sunderland AFC",
-    "home_goals": 2.0,
-    "away_goals": 1.0,
+    "home_goals": 2,
+    "away_goals": 1,
     "league": "English Premier League"
   },
   {
@@ -22,8 +22,8 @@
     "status": "FINISHED",
     "home_team": "Nottingham Forest FC",
     "away_team": "Leeds United FC",
-    "home_goals": 0.0,
-    "away_goals": 1.0,
+    "home_goals": 0,
+    "away_goals": 1,
     "league": "English Premier League"
   },
   {
@@ -31,17 +31,17 @@
     "status": "FINISHED",
     "home_team": "Everton FC",
     "away_team": "Crystal Palace FC",
-    "home_goals": 2.0,
-    "away_goals": 0.0,
+    "home_goals": 2,
+    "away_goals": 0,
     "league": "English Premier League"
   },
   {
     "fixture_id": 560547,
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "home_team": "Brentford FC",
     "away_team": "Tottenham Hotspur FC",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": 0,
+    "away_goals": 0,
     "league": "English Premier League"
   },
   {
@@ -49,8 +49,8 @@
     "status": "IN_PLAY",
     "home_team": "Athletic Club",
     "away_team": "Sevilla FC",
-    "home_goals": 0.0,
-    "away_goals": 1.0,
+    "home_goals": 1.0,
+    "away_goals": 3.0,
     "league": "Spanish La Liga"
   },
   {
@@ -73,20 +73,20 @@
   },
   {
     "fixture_id": 558629,
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "home_team": "Udinese Calcio",
     "away_team": "Como 1907",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": 0.0,
+    "away_goals": 0.0,
     "league": "Italian Serie A"
   },
   {
     "fixture_id": 558632,
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "home_team": "FC Internazionale Milano",
     "away_team": "AC Monza",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": 1.0,
+    "away_goals": 0.0,
     "league": "Italian Serie A"
   },
   {
@@ -94,8 +94,8 @@
     "status": "TIMED",
     "home_team": "Genoa CFC",
     "away_team": "SSC Napoli",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": NaN,
+    "away_goals": NaN,
     "league": "Italian Serie A"
   },
   {
@@ -103,8 +103,8 @@
     "status": "TIMED",
     "home_team": "Parma Calcio 1913",
     "away_team": "Cagliari Calcio",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": NaN,
+    "away_goals": NaN,
     "league": "Italian Serie A"
   }
 ]
