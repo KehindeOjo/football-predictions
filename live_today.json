@@ -68,7 +68,7 @@
     "home_team": "RCD Espanyol de Barcelona",
     "away_team": "Real Madrid CF",
     "home_goals": 0,
-    "away_goals": 0,
+    "away_goals": 1,
     "league": "Spanish La Liga"
   },
   {
@@ -91,7 +91,7 @@
   },
   {
     "fixture_id": 558631,
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "home_team": "Genoa CFC",
     "away_team": "SSC Napoli",
     "home_goals": 0,
