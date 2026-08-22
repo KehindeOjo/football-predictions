@@ -64,11 +64,11 @@
   },
   {
     "fixture_id": 564645,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "RCD Espanyol de Barcelona",
     "away_team": "Real Madrid CF",
     "home_goals": 1,
-    "away_goals": 1,
+    "away_goals": 2,
     "league": "Spanish La Liga"
   },
   {
