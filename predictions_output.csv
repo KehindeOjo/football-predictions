@@ -1,30 +1,31 @@
 home_team,away_team,expected_goals_home,expected_goals_away,prob_home_win,prob_draw,prob_away_win,prob_btts_yes,prob_over_2_5,prob_under_2_5,top_pick,top_pick_confidence,fixture_id,date,league
-Nottingham Forest FC,Leeds United FC,1.56,1.09,0.4613,0.2925,0.2463,0.5436,0.4932,0.5068,Home Win,0.4613,560545,2026-08-22,English Premier League
-Everton FC,Crystal Palace FC,1.47,0.97,0.4663,0.3042,0.2294,0.4995,0.4415,0.5585,Home Win,0.4663,560546,2026-08-22,English Premier League
-Brentford FC,Tottenham Hotspur FC,1.77,1.06,0.5222,0.2704,0.2074,0.5596,0.5368,0.4632,Home Win,0.5222,560547,2026-08-22,English Premier League
-Manchester City FC,AFC Bournemouth,2.11,0.95,0.6263,0.2304,0.1433,0.5532,0.5898,0.4102,Home Win,0.6263,560548,2026-08-23,English Premier League
+Nottingham Forest FC,Leeds United FC,1.56,1.09,0.4612,0.2925,0.2463,0.5437,0.4933,0.5067,Home Win,0.4612,560545,2026-08-22,English Premier League
+Everton FC,Crystal Palace FC,1.47,0.97,0.4663,0.3043,0.2294,0.4995,0.4415,0.5585,Home Win,0.4663,560546,2026-08-22,English Premier League
+Brentford FC,Tottenham Hotspur FC,1.77,1.06,0.5222,0.2704,0.2074,0.5597,0.5368,0.4632,Home Win,0.5222,560547,2026-08-22,English Premier League
+Manchester City FC,AFC Bournemouth,2.11,0.95,0.6263,0.2304,0.1433,0.5533,0.5899,0.4101,Home Win,0.6263,560548,2026-08-23,English Premier League
 Brighton & Hove Albion FC,Aston Villa FC,1.44,1.18,0.4118,0.3008,0.2874,0.5483,0.4861,0.5139,Home Win,0.4118,560549,2026-08-23,English Premier League
-Newcastle United FC,Liverpool FC,1.64,1.63,0.3686,0.265,0.3664,0.6645,0.634,0.366,Home Win,0.3686,560550,2026-08-23,English Premier League
+Newcastle United FC,Liverpool FC,1.64,1.63,0.3686,0.265,0.3664,0.6645,0.6341,0.3659,Home Win,0.3686,560550,2026-08-23,English Premier League
 Fulham FC,Chelsea FC,1.37,1.17,0.3948,0.3073,0.2979,0.5354,0.4668,0.5332,Home Win,0.3948,560551,2026-08-24,English Premier League
 Crystal Palace FC,Manchester City FC,0.82,1.85,0.1427,0.2557,0.6016,0.4878,0.4987,0.5013,Away Win,0.6016,560555,2026-08-28,English Premier League
-Liverpool FC,Nottingham Forest FC,1.72,1.29,0.4596,0.2723,0.2681,0.6124,0.5789,0.4211,Home Win,0.4596,560552,2026-08-29,English Premier League
-AFC Bournemouth,Everton FC,1.72,1.1,0.5002,0.2756,0.2242,0.566,0.535,0.465,Home Win,0.5002,560560,2026-08-29,English Premier League
+Liverpool FC,Nottingham Forest FC,1.72,1.29,0.4596,0.2723,0.2681,0.6124,0.579,0.421,Home Win,0.4596,560552,2026-08-29,English Premier League
+AFC Bournemouth,Everton FC,1.72,1.1,0.5003,0.2755,0.2242,0.5661,0.5351,0.4649,Home Win,0.5003,560560,2026-08-29,English Premier League
 Tottenham Hotspur FC,Newcastle United FC,1.43,1.42,0.3588,0.2891,0.3521,0.5955,0.5415,0.4585,Home Win,0.3588,560558,2026-08-29,English Premier League
-Real Betis Balompié,Real Sociedad de Fútbol,2.3,1.27,0.6036,0.1958,0.2006,0.6478,0.6916,0.3084,Home Win,0.6036,564647,2026-08-21,Spanish La Liga
-Athletic Club,Sevilla FC,1.58,1.14,0.4739,0.2522,0.2739,0.5421,0.5121,0.4879,Home Win,0.4739,564641,2026-08-22,Spanish La Liga
-Valencia CF,RC Celta de Vigo,1.45,1.19,0.4296,0.2619,0.3085,0.5324,0.4897,0.5103,Home Win,0.4296,564643,2026-08-22,Spanish La Liga
-RCD Espanyol de Barcelona,Real Madrid CF,0.97,1.63,0.2237,0.2493,0.527,0.5015,0.4828,0.5172,Away Win,0.527,564645,2026-08-22,Spanish La Liga
-Club Atlético de Madrid,Villarreal CF,1.81,1.44,0.4632,0.2305,0.3063,0.6384,0.6294,0.3706,Home Win,0.4632,564646,2026-08-23,Spanish La Liga
-Getafe CF,Real Racing Club de Santander,1.2,1.07,0.3869,0.288,0.3251,0.4603,0.3957,0.6043,Home Win,0.3869,564644,2026-08-23,Spanish La Liga
-Elche CF,FC Barcelona,1.09,2.18,0.1787,0.2005,0.6209,0.5882,0.633,0.367,Away Win,0.6209,564642,2026-08-23,Spanish La Liga
-CA Osasuna,Levante UD,1.67,1.01,0.5256,0.2457,0.2286,0.5181,0.5018,0.4982,Home Win,0.5256,564639,2026-08-24,Spanish La Liga
-Málaga CF,RC Deportivo La Coruña,0.0,0.65,0.0,0.5231,0.4769,0.0,0.0281,0.9719,Draw,0.5231,564640,2026-08-24,Spanish La Liga
-Valencia CF,Real Betis Balompié,1.47,1.3,0.4102,0.2561,0.3338,0.5606,0.5223,0.4777,Home Win,0.4102,564637,2026-08-25,Spanish La Liga
-Real Madrid CF,Real Sociedad de Fútbol,2.88,0.94,0.7696,0.1374,0.093,0.575,0.7331,0.2669,Home Win,0.7696,564631,2026-08-26,Spanish La Liga
-RC Celta de Vigo,CA Osasuna,1.71,0.9,0.5635,0.2408,0.1958,0.4878,0.4845,0.5155,Home Win,0.5635,564636,2026-08-27,Spanish La Liga
-FC Barcelona,Athletic Club,3.26,0.68,0.8606,0.0945,0.045,0.474,0.7515,0.2485,Home Win,0.8606,564630,2026-08-27,Spanish La Liga
-Real Racing Club de Santander,Elche CF,2.35,1.39,0.5876,0.1949,0.2175,0.6796,0.7205,0.2795,Home Win,0.5876,564654,2026-08-28,Spanish La Liga
-Deportivo Alavés,Villarreal CF,1.56,1.68,0.3568,0.2346,0.4086,0.6424,0.6267,0.3733,Away Win,0.4086,564648,2026-08-28,Spanish La Liga
+Sunderland AFC,Fulham FC,1.15,1.0,0.3685,0.3389,0.2926,0.4525,0.362,0.638,Home Win,0.3685,560554,2026-08-30,English Premier League
+Athletic Club,Sevilla FC,1.6,1.15,0.4774,0.2476,0.275,0.544,0.5171,0.4829,Home Win,0.4774,564641,2026-08-22,Spanish La Liga
+Valencia CF,RC Celta de Vigo,1.46,1.19,0.4327,0.2574,0.3098,0.5335,0.4936,0.5064,Home Win,0.4327,564643,2026-08-22,Spanish La Liga
+RCD Espanyol de Barcelona,Real Madrid CF,0.98,1.64,0.2256,0.2453,0.529,0.5021,0.4856,0.5144,Away Win,0.529,564645,2026-08-22,Spanish La Liga
+Club Atlético de Madrid,Villarreal CF,1.82,1.44,0.4661,0.2267,0.3072,0.6399,0.6335,0.3665,Home Win,0.4661,564646,2026-08-23,Spanish La Liga
+Getafe CF,Real Racing Club de Santander,1.2,1.07,0.3904,0.2839,0.3257,0.4591,0.3967,0.6033,Home Win,0.3904,564644,2026-08-23,Spanish La Liga
+Elche CF,FC Barcelona,1.09,2.19,0.1801,0.1972,0.6227,0.5898,0.6366,0.3634,Away Win,0.6227,564642,2026-08-23,Spanish La Liga
+CA Osasuna,Levante UD,1.68,1.02,0.5293,0.2413,0.2294,0.5188,0.5055,0.4945,Home Win,0.5293,564639,2026-08-24,Spanish La Liga
+Málaga CF,RC Deportivo La Coruña,0.0,0.64,0.0,0.5259,0.4741,0.0,0.0275,0.9725,Draw,0.5259,564640,2026-08-24,Spanish La Liga
+Valencia CF,Real Betis Balompié,1.39,1.25,0.4045,0.2598,0.3357,0.535,0.4914,0.5086,Home Win,0.4045,564637,2026-08-25,Spanish La Liga
+Real Madrid CF,Real Sociedad de Fútbol,2.78,0.9,0.7634,0.141,0.0956,0.5571,0.7103,0.2897,Home Win,0.7634,564631,2026-08-26,Spanish La Liga
+RC Celta de Vigo,CA Osasuna,1.72,0.91,0.5656,0.2368,0.1977,0.4891,0.488,0.512,Home Win,0.5656,564636,2026-08-27,Spanish La Liga
+FC Barcelona,Athletic Club,3.28,0.68,0.8622,0.0924,0.0453,0.4762,0.7552,0.2448,Home Win,0.8622,564630,2026-08-27,Spanish La Liga
+Real Racing Club de Santander,Elche CF,2.35,1.39,0.5885,0.1929,0.2186,0.6779,0.7197,0.2803,Home Win,0.5885,564654,2026-08-28,Spanish La Liga
+Deportivo Alavés,Villarreal CF,1.56,1.68,0.3591,0.231,0.4099,0.6438,0.6304,0.3696,Away Win,0.4099,564648,2026-08-28,Spanish La Liga
+Levante UD,Real Betis Balompié,1.31,1.45,0.3406,0.2536,0.4058,0.5571,0.5193,0.4807,Away Win,0.4058,564655,2026-08-29,Spanish La Liga
 Udinese Calcio,Como 1907,0.82,1.59,0.197,0.2451,0.5579,0.4436,0.4336,0.5664,Away Win,0.5579,558629,2026-08-22,Italian Serie A
 Genoa CFC,SSC Napoli,0.89,1.51,0.2259,0.2539,0.5202,0.4564,0.4305,0.5695,Away Win,0.5202,558631,2026-08-22,Italian Serie A
 Parma Calcio 1913,Cagliari Calcio,0.9,0.96,0.3263,0.3146,0.3591,0.3639,0.2868,0.7132,Away Win,0.3591,558636,2026-08-22,Italian Serie A
