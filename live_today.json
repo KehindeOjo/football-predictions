@@ -58,8 +58,8 @@
     "status": "FINISHED",
     "home_team": "Frosinone Calcio",
     "away_team": "Juventus FC",
-    "home_goals": 0.0,
-    "away_goals": 1.0,
+    "home_goals": 0,
+    "away_goals": 1,
     "league": "Italian Serie A"
   },
   {
@@ -67,26 +67,26 @@
     "status": "FINISHED",
     "home_team": "Venezia FC",
     "away_team": "US Lecce",
-    "home_goals": 0.0,
-    "away_goals": 2.0,
+    "home_goals": 0,
+    "away_goals": 2,
     "league": "Italian Serie A"
   },
   {
     "fixture_id": 558633,
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "home_team": "Atalanta BC",
     "away_team": "US Sassuolo Calcio",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": 1,
+    "away_goals": 0,
     "league": "Italian Serie A"
   },
   {
     "fixture_id": 558634,
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "home_team": "Torino FC",
     "away_team": "AC Milan",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": 0,
+    "away_goals": 0,
     "league": "Italian Serie A"
   }
 ]
