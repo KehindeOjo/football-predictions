@@ -55,7 +55,7 @@
   },
   {
     "fixture_id": 558635,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Frosinone Calcio",
     "away_team": "Juventus FC",
     "home_goals": 0.0,
@@ -64,11 +64,11 @@
   },
   {
     "fixture_id": 558637,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Venezia FC",
     "away_team": "US Lecce",
-    "home_goals": 1.0,
-    "away_goals": 1.0,
+    "home_goals": 0.0,
+    "away_goals": 2.0,
     "league": "Italian Serie A"
   },
   {
