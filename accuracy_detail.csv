@@ -1,6 +1,15 @@
 prediction_id,model_version,external_fixture_id,home_team,away_team,match_date,prob_home_win,prob_draw,prob_away_win,prob_btts_yes,prob_over_2_5,top_pick,home_goals,away_goals,league_id,actual_outcome,outcome_correct,actual_btts,btts_predicted_yes,btts_correct,actual_over_2_5,over_predicted,over_under_correct
+1,dixon-coles-v1,560545,Nottingham Forest FC,Leeds United FC,2026-08-22,0.4612,0.2925,0.2463,0.5437,0.4933,Home Win,0,1,39,Away Win,False,False,True,False,False,False,True
+2,dixon-coles-v1,560546,Everton FC,Crystal Palace FC,2026-08-22,0.4663,0.3043,0.2294,0.4995,0.4415,Home Win,2,0,39,Home Win,True,False,False,True,False,False,True
+3,dixon-coles-v1,560547,Brentford FC,Tottenham Hotspur FC,2026-08-22,0.5222,0.2704,0.2074,0.5597,0.5368,Home Win,3,0,39,Home Win,True,False,True,False,True,True,True
 12,dixon-coles-v1,564634,Deportivo Alavés,Getafe CF,2026-08-15,0.4025,0.324,0.2735,0.3386,0.263,Home Win,3,0,140,Home Win,True,False,False,True,True,False,False
 13,dixon-coles-v1,564633,Sevilla FC,Rayo Vallecano de Madrid,2026-08-15,0.3768,0.288,0.3352,0.4387,0.3729,Home Win,2,1,140,Home Win,True,True,False,False,True,False,False
 14,dixon-coles-v1,564632,RCD Espanyol de Barcelona,Levante UD,2026-08-16,0.4533,0.256,0.2907,0.5145,0.4763,Home Win,3,0,140,Home Win,True,False,True,False,True,False,False
 16,dixon-coles-v1,564638,Rayo Vallecano de Madrid,Deportivo Alavés,2026-08-20,0.4933,0.2622,0.2445,0.4751,0.4394,Home Win,1,1,140,Draw,False,True,False,False,False,False,True
 17,dixon-coles-v1,564647,Real Betis Balompié,Real Sociedad de Fútbol,2026-08-21,0.6036,0.1958,0.2006,0.6478,0.6916,Home Win,1,0,140,Home Win,True,False,True,False,False,True,False
+18,dixon-coles-v1,564641,Athletic Club,Sevilla FC,2026-08-22,0.4774,0.2476,0.275,0.544,0.5171,Home Win,1,3,140,Away Win,False,True,True,True,True,True,True
+19,dixon-coles-v1,564643,Valencia CF,RC Celta de Vigo,2026-08-22,0.4327,0.2574,0.3098,0.5335,0.4936,Home Win,0,0,140,Draw,False,False,True,False,False,False,True
+20,dixon-coles-v1,564645,RCD Espanyol de Barcelona,Real Madrid CF,2026-08-22,0.2256,0.2453,0.529,0.5021,0.4856,Away Win,1,2,140,Away Win,True,True,True,True,True,False,False
+23,dixon-coles-v1,558629,Udinese Calcio,Como 1907,2026-08-22,0.197,0.2451,0.5579,0.4436,0.4336,Away Win,1,1,135,Draw,False,True,False,False,False,False,True
+24,dixon-coles-v1,558631,Genoa CFC,SSC Napoli,2026-08-22,0.2259,0.2539,0.5202,0.4564,0.4305,Away Win,0,2,135,Away Win,True,False,False,True,False,False,True
+25,dixon-coles-v1,558636,Parma Calcio 1913,Cagliari Calcio,2026-08-22,0.3263,0.3146,0.3591,0.3639,0.2868,Away Win,0,1,135,Away Win,True,False,False,True,False,False,True
