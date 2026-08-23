@@ -1,20 +1,20 @@
 [
   {
     "fixture_id": 560548,
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "home_team": "Manchester City FC",
     "away_team": "AFC Bournemouth",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": 0.0,
+    "away_goals": 0.0,
     "league": "English Premier League"
   },
   {
     "fixture_id": 560549,
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "home_team": "Brighton & Hove Albion FC",
     "away_team": "Aston Villa FC",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": 1.0,
+    "away_goals": 0.0,
     "league": "English Premier League"
   },
   {
@@ -22,8 +22,8 @@
     "status": "TIMED",
     "home_team": "Newcastle United FC",
     "away_team": "Liverpool FC",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": NaN,
+    "away_goals": NaN,
     "league": "English Premier League"
   },
   {
