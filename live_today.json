@@ -1,11 +1,11 @@
 [
   {
     "fixture_id": 560551,
-    "status": "PAUSED",
+    "status": "IN_PLAY",
     "home_team": "Fulham FC",
     "away_team": "Chelsea FC",
-    "home_goals": 1,
-    "away_goals": 2,
+    "home_goals": 2,
+    "away_goals": 3,
     "league": "English Premier League"
   },
   {
@@ -22,7 +22,7 @@
     "status": "IN_PLAY",
     "home_team": "M\u00e1laga CF",
     "away_team": "RC Deportivo La Coru\u00f1a",
-    "home_goals": 0,
+    "home_goals": 1,
     "away_goals": 1,
     "league": "Spanish La Liga"
   },
@@ -37,10 +37,10 @@
   },
   {
     "fixture_id": 558638,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "AS Roma",
     "away_team": "ACF Fiorentina",
-    "home_goals": 1,
+    "home_goals": 4,
     "away_goals": 0,
     "league": "Italian Serie A"
   }
