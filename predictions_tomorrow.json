@@ -1,19 +1,19 @@
 [
   {
-    "home_team": "Valencia CF",
-    "away_team": "Real Betis Balompi\u00e9",
-    "expected_goals_home": 1.29,
-    "expected_goals_away": 1.2,
-    "prob_home_win": 0.3852,
-    "prob_draw": 0.2717,
-    "prob_away_win": 0.3431,
-    "prob_btts_yes": 0.5071,
-    "prob_over_2_5": 0.4536,
-    "prob_under_2_5": 0.5464,
+    "home_team": "Real Madrid CF",
+    "away_team": "Real Sociedad de F\u00fatbol",
+    "expected_goals_home": 2.78,
+    "expected_goals_away": 0.91,
+    "prob_home_win": 0.7596,
+    "prob_draw": 0.146,
+    "prob_away_win": 0.0944,
+    "prob_btts_yes": 0.5632,
+    "prob_over_2_5": 0.7124,
+    "prob_under_2_5": 0.2876,
     "top_pick": "Home Win",
-    "top_pick_confidence": 0.3852,
-    "fixture_id": 564637,
-    "date": "2026-08-25",
+    "top_pick_confidence": 0.7596,
+    "fixture_id": 564631,
+    "date": "2026-08-26",
     "league": "Spanish La Liga"
   }
 ]
