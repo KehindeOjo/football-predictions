@@ -1,10 +1,10 @@
 [
   {
     "fixture_id": 564631,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Real Madrid CF",
     "away_team": "Real Sociedad de F\u00fatbol",
-    "home_goals": 1,
+    "home_goals": 4,
     "away_goals": 1,
     "league": "Spanish La Liga"
   }
