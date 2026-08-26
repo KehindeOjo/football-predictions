@@ -24,5 +24,6 @@ prediction_id,model_version,external_fixture_id,home_team,away_team,match_date,p
 28,dixon-coles-v1,558630,Bologna FC 1909,SS Lazio,2026-08-24,0.4013,0.2782,0.3206,0.4555,0.3964,Home Win,0,1,135,Away Win,False,False,False,True,False,False,True
 29,dixon-coles-v1,558638,AS Roma,ACF Fiorentina,2026-08-24,0.6179,0.2232,0.1589,0.4399,0.465,Home Win,4,0,135,Home Win,True,False,False,True,True,False,False
 456,dixon-coles-v1,564639,CA Osasuna,Levante UD,2026-08-24,0.5205,0.2454,0.2342,0.5208,0.5033,Home Win,0,0,140,Draw,False,False,True,False,False,True,False
+486,dixon-coles-v1,564637,Valencia CF,Real Betis Balompié,2026-08-25,0.3828,0.2777,0.3395,0.5143,0.4582,Home Win,0,1,140,Away Win,False,False,True,False,False,False,True
 513,dixon-coles-v1,564644,Getafe CF,Real Racing Club de Santander,2026-08-23,0.3805,0.2894,0.3302,0.4604,0.3947,Home Win,1,0,140,Home Win,True,False,False,True,False,False,True
 614,dixon-coles-v1,564640,Málaga CF,RC Deportivo La Coruña,2026-08-24,0.0,0.5458,0.4542,0.0,0.0237,Draw,1,1,140,Draw,True,True,False,False,False,False,True
