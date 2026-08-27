@@ -1,11 +1,20 @@
 [
   {
-    "fixture_id": 564631,
-    "status": "FINISHED",
-    "home_team": "Real Madrid CF",
-    "away_team": "Real Sociedad de F\u00fatbol",
-    "home_goals": 4,
-    "away_goals": 1,
+    "fixture_id": 564636,
+    "status": "TIMED",
+    "home_team": "RC Celta de Vigo",
+    "away_team": "CA Osasuna",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "Spanish La Liga"
+  },
+  {
+    "fixture_id": 564630,
+    "status": "TIMED",
+    "home_team": "FC Barcelona",
+    "away_team": "Athletic Club",
+    "home_goals": null,
+    "away_goals": null,
     "league": "Spanish La Liga"
   }
 ]
