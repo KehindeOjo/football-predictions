@@ -1,11 +1,11 @@
 [
   {
     "fixture_id": 560555,
-    "status": "TIMED",
+    "status": "FINISHED",
     "home_team": "Crystal Palace FC",
     "away_team": "Manchester City FC",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": 1,
+    "away_goals": 4,
     "league": "English Premier League"
   },
   {
@@ -13,26 +13,26 @@
     "status": "TIMED",
     "home_team": "Real Racing Club de Santander",
     "away_team": "Elche CF",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": NaN,
+    "away_goals": NaN,
     "league": "Spanish La Liga"
   },
   {
     "fixture_id": 564648,
-    "status": "TIMED",
+    "status": "FINISHED",
     "home_team": "Deportivo Alav\u00e9s",
     "away_team": "Villarreal CF",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": 1.0,
+    "away_goals": 0.0,
     "league": "Spanish La Liga"
   },
   {
     "fixture_id": 558625,
-    "status": "TIMED",
+    "status": "FINISHED",
     "home_team": "AC Milan",
     "away_team": "Venezia FC",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": 2,
+    "away_goals": 0,
     "league": "Italian Serie A"
   }
 ]
