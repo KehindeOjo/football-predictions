@@ -1,20 +1,38 @@
 [
   {
-    "fixture_id": 564636,
+    "fixture_id": 560555,
     "status": "TIMED",
-    "home_team": "RC Celta de Vigo",
-    "away_team": "CA Osasuna",
+    "home_team": "Crystal Palace FC",
+    "away_team": "Manchester City FC",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "English Premier League"
+  },
+  {
+    "fixture_id": 564654,
+    "status": "TIMED",
+    "home_team": "Real Racing Club de Santander",
+    "away_team": "Elche CF",
     "home_goals": null,
     "away_goals": null,
     "league": "Spanish La Liga"
   },
   {
-    "fixture_id": 564630,
+    "fixture_id": 564648,
     "status": "TIMED",
-    "home_team": "FC Barcelona",
-    "away_team": "Athletic Club",
+    "home_team": "Deportivo Alav\u00e9s",
+    "away_team": "Villarreal CF",
     "home_goals": null,
     "away_goals": null,
     "league": "Spanish La Liga"
+  },
+  {
+    "fixture_id": 558625,
+    "status": "TIMED",
+    "home_team": "AC Milan",
+    "away_team": "Venezia FC",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "Italian Serie A"
   }
 ]
