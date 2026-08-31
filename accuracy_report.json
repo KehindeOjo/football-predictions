@@ -1,38 +1,38 @@
 {
   "overall": {
-    "resolved_predictions": 35,
-    "outcome_accuracy": 0.6286,
-    "btts_accuracy": 0.5143,
-    "over_under_2_5_accuracy": 0.5714
+    "resolved_predictions": 52,
+    "outcome_accuracy": 0.6346,
+    "btts_accuracy": 0.6346,
+    "over_under_2_5_accuracy": 0.5962
   },
   "by_league": [
     {
       "league_id": 39,
-      "resolved_predictions": 8,
-      "outcome_accuracy": 0.625,
-      "btts_accuracy": 0.5,
+      "resolved_predictions": 16,
+      "outcome_accuracy": 0.5625,
+      "btts_accuracy": 0.6875,
       "over_under_2_5_accuracy": 0.625
     },
     {
       "league_id": 135,
-      "resolved_predictions": 8,
-      "outcome_accuracy": 0.75,
-      "btts_accuracy": 0.75,
-      "over_under_2_5_accuracy": 0.625
+      "resolved_predictions": 13,
+      "outcome_accuracy": 0.7692,
+      "btts_accuracy": 0.7692,
+      "over_under_2_5_accuracy": 0.6154
     },
     {
       "league_id": 140,
-      "resolved_predictions": 19,
-      "outcome_accuracy": 0.5789,
-      "btts_accuracy": 0.4211,
-      "over_under_2_5_accuracy": 0.5263
+      "resolved_predictions": 23,
+      "outcome_accuracy": 0.6087,
+      "btts_accuracy": 0.5217,
+      "over_under_2_5_accuracy": 0.5652
     }
   ],
   "by_model_version": [
     {
       "model_version": "dixon-coles-v1",
-      "resolved_predictions": 35,
-      "outcome_accuracy": 0.6286
+      "resolved_predictions": 52,
+      "outcome_accuracy": 0.6346
     }
   ]
 }
