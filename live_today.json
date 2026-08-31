@@ -1,92 +1,47 @@
 [
   {
-    "fixture_id": 560554,
-    "status": "FINISHED",
-    "home_team": "Sunderland AFC",
-    "away_team": "Fulham FC",
-    "home_goals": 1,
-    "away_goals": 0,
+    "fixture_id": 560557,
+    "status": "TIMED",
+    "home_team": "Aston Villa FC",
+    "away_team": "Arsenal FC",
+    "home_goals": null,
+    "away_goals": null,
     "league": "English Premier League"
   },
   {
-    "fixture_id": 560556,
-    "status": "FINISHED",
-    "home_team": "Chelsea FC",
-    "away_team": "Brighton & Hove Albion FC",
-    "home_goals": 4,
-    "away_goals": 3,
-    "league": "English Premier League"
-  },
-  {
-    "fixture_id": 560559,
-    "status": "FINISHED",
-    "home_team": "Leeds United FC",
-    "away_team": "Brentford FC",
-    "home_goals": 1,
-    "away_goals": 1,
-    "league": "English Premier League"
-  },
-  {
-    "fixture_id": 560553,
-    "status": "FINISHED",
-    "home_team": "Manchester United FC",
-    "away_team": "Ipswich Town FC",
-    "home_goals": 5,
-    "away_goals": 2,
-    "league": "English Premier League"
-  },
-  {
-    "fixture_id": 564656,
-    "status": "FINISHED",
-    "home_team": "Real Madrid CF",
-    "away_team": "M\u00e1laga CF",
-    "home_goals": 4,
-    "away_goals": 0,
+    "fixture_id": 564657,
+    "status": "TIMED",
+    "home_team": "CA Osasuna",
+    "away_team": "Getafe CF",
+    "home_goals": null,
+    "away_goals": null,
     "league": "Spanish La Liga"
   },
   {
-    "fixture_id": 564651,
-    "status": "FINISHED",
-    "home_team": "RC Deportivo La Coru\u00f1a",
-    "away_team": "Valencia CF",
-    "home_goals": 3,
-    "away_goals": 1,
+    "fixture_id": 564650,
+    "status": "TIMED",
+    "home_team": "FC Barcelona",
+    "away_team": "Rayo Vallecano de Madrid",
+    "home_goals": null,
+    "away_goals": null,
     "league": "Spanish La Liga"
   },
   {
-    "fixture_id": 564652,
-    "status": "FINISHED",
-    "home_team": "RC Celta de Vigo",
-    "away_team": "Athletic Club",
-    "home_goals": 0,
-    "away_goals": 2,
-    "league": "Spanish La Liga"
-  },
-  {
-    "fixture_id": 558626,
-    "status": "FINISHED",
-    "home_team": "SSC Napoli",
-    "away_team": "Como 1907",
-    "home_goals": 1,
-    "away_goals": 2,
+    "fixture_id": 558621,
+    "status": "TIMED",
+    "home_team": "US Lecce",
+    "away_team": "AS Roma",
+    "home_goals": null,
+    "away_goals": null,
     "league": "Italian Serie A"
   },
   {
-    "fixture_id": 558622,
-    "status": "FINISHED",
-    "home_team": "SS Lazio",
-    "away_team": "Genoa CFC",
-    "home_goals": 1,
-    "away_goals": 0,
-    "league": "Italian Serie A"
-  },
-  {
-    "fixture_id": 558623,
-    "status": "FINISHED",
-    "home_team": "Cagliari Calcio",
-    "away_team": "FC Internazionale Milano",
-    "home_goals": 0,
-    "away_goals": 1,
+    "fixture_id": 558628,
+    "status": "TIMED",
+    "home_team": "Atalanta BC",
+    "away_team": "Bologna FC 1909",
+    "home_goals": null,
+    "away_goals": null,
     "league": "Italian Serie A"
   }
 ]
