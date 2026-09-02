@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "home_team": "Real Sociedad de F\u00fatbol",
+    "away_team": "RC Celta de Vigo",
+    "expected_goals_home": 1.8,
+    "expected_goals_away": 1.26,
+    "prob_home_win": 0.5002,
+    "prob_draw": 0.2301,
+    "prob_away_win": 0.2696,
+    "prob_btts_yes": 0.5968,
+    "prob_over_2_5": 0.5891,
+    "prob_under_2_5": 0.4109,
+    "top_pick": "Home Win",
+    "top_pick_confidence": 0.5002,
+    "fixture_id": 564682,
+    "date": "2026-09-03",
+    "league": "Spanish La Liga"
+  }
+]
