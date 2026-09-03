@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "fixture_id": 564682,
+    "status": "TIMED",
+    "home_team": "Real Sociedad de F\u00fatbol",
+    "away_team": "RC Celta de Vigo",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "Spanish La Liga"
+  }
+]
