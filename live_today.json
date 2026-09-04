@@ -1,11 +1,29 @@
 [
   {
-    "fixture_id": 564682,
-    "status": "FINISHED",
-    "home_team": "Real Sociedad de F\u00fatbol",
-    "away_team": "RC Celta de Vigo",
-    "home_goals": 0,
-    "away_goals": 0,
+    "fixture_id": 560566,
+    "status": "TIMED",
+    "home_team": "Ipswich Town FC",
+    "away_team": "Liverpool FC",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "English Premier League"
+  },
+  {
+    "fixture_id": 564667,
+    "status": "TIMED",
+    "home_team": "Real Betis Balompi\u00e9",
+    "away_team": "Real Madrid CF",
+    "home_goals": null,
+    "away_goals": null,
     "league": "Spanish La Liga"
+  },
+  {
+    "fixture_id": 558609,
+    "status": "TIMED",
+    "home_team": "Genoa CFC",
+    "away_team": "Como 1907",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "Italian Serie A"
   }
 ]
