@@ -1,11 +1,11 @@
 [
   {
     "fixture_id": 560571,
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "home_team": "Newcastle United FC",
     "away_team": "AFC Bournemouth",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": 1.0,
+    "away_goals": 2.0,
     "league": "English Premier League"
   },
   {
@@ -13,8 +13,8 @@
     "status": "TIMED",
     "home_team": "Nottingham Forest FC",
     "away_team": "Tottenham Hotspur FC",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": NaN,
+    "away_goals": NaN,
     "league": "English Premier League"
   },
   {
@@ -22,8 +22,8 @@
     "status": "TIMED",
     "home_team": "Manchester City FC",
     "away_team": "Coventry City FC",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": NaN,
+    "away_goals": NaN,
     "league": "English Premier League"
   },
   {
@@ -31,8 +31,8 @@
     "status": "TIMED",
     "home_team": "Brighton & Hove Albion FC",
     "away_team": "Leeds United FC",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": NaN,
+    "away_goals": NaN,
     "league": "English Premier League"
   },
   {
@@ -40,8 +40,8 @@
     "status": "TIMED",
     "home_team": "Brentford FC",
     "away_team": "Sunderland AFC",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": NaN,
+    "away_goals": NaN,
     "league": "English Premier League"
   },
   {
@@ -49,8 +49,8 @@
     "status": "TIMED",
     "home_team": "Fulham FC",
     "away_team": "Crystal Palace FC",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": NaN,
+    "away_goals": NaN,
     "league": "English Premier League"
   },
   {
@@ -58,8 +58,8 @@
     "status": "TIMED",
     "home_team": "Hull City AFC",
     "away_team": "Aston Villa FC",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": NaN,
+    "away_goals": NaN,
     "league": "English Premier League"
   },
   {
