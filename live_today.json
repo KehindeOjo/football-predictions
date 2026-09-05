@@ -55,7 +55,7 @@
   },
   {
     "fixture_id": 560569,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Hull City AFC",
     "away_team": "Aston Villa FC",
     "home_goals": 0,
@@ -67,26 +67,26 @@
     "status": "FINISHED",
     "home_team": "Athletic Club",
     "away_team": "Club Atl\u00e9tico de Madrid",
-    "home_goals": 3.0,
-    "away_goals": 0.0,
+    "home_goals": 3,
+    "away_goals": 0,
     "league": "Spanish La Liga"
   },
   {
     "fixture_id": 564660,
-    "status": "PAUSED",
+    "status": "FINISHED",
     "home_team": "Rayo Vallecano de Madrid",
     "away_team": "Real Racing Club de Santander",
-    "home_goals": 2.0,
-    "away_goals": 2.0,
+    "home_goals": 3,
+    "away_goals": 2,
     "league": "Spanish La Liga"
   },
   {
     "fixture_id": 564662,
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "home_team": "Villarreal CF",
     "away_team": "RC Deportivo La Coru\u00f1a",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": 1,
+    "away_goals": 0,
     "league": "Spanish La Liga"
   },
   {
@@ -94,26 +94,26 @@
     "status": "FINISHED",
     "home_team": "ACF Fiorentina",
     "away_team": "Torino FC",
-    "home_goals": 1.0,
-    "away_goals": 2.0,
+    "home_goals": 1,
+    "away_goals": 2,
     "league": "Italian Serie A"
   },
   {
     "fixture_id": 558614,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "FC Internazionale Milano",
     "away_team": "SSC Napoli",
-    "home_goals": 1.0,
-    "away_goals": 2.0,
+    "home_goals": 3,
+    "away_goals": 2,
     "league": "Italian Serie A"
   },
   {
     "fixture_id": 558611,
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "home_team": "AS Roma",
     "away_team": "Atalanta BC",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": 0,
+    "away_goals": 0,
     "league": "Italian Serie A"
   }
 ]
