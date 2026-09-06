@@ -10,16 +10,16 @@
   },
   {
     "fixture_id": 560570,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Arsenal FC",
     "away_team": "Chelsea FC",
-    "home_goals": 1,
+    "home_goals": 2,
     "away_goals": 1,
     "league": "English Premier League"
   },
   {
     "fixture_id": 564659,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Valencia CF",
     "away_team": "FC Barcelona",
     "home_goals": 0.0,
@@ -28,20 +28,20 @@
   },
   {
     "fixture_id": 564664,
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "home_team": "Deportivo Alav\u00e9s",
     "away_team": "CA Osasuna",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": 4.0,
+    "away_goals": 2.0,
     "league": "Spanish La Liga"
   },
   {
     "fixture_id": 564666,
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "home_team": "M\u00e1laga CF",
     "away_team": "Levante UD",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": 0.0,
+    "away_goals": 0.0,
     "league": "Spanish La Liga"
   },
   {
@@ -73,11 +73,11 @@
   },
   {
     "fixture_id": 558613,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Bologna FC 1909",
     "away_team": "US Sassuolo Calcio",
-    "home_goals": 0.0,
-    "away_goals": 0.0,
+    "home_goals": 2.0,
+    "away_goals": 2.0,
     "league": "Italian Serie A"
   },
   {
