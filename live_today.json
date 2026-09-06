@@ -46,11 +46,11 @@
   },
   {
     "fixture_id": 564661,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "RCD Espanyol de Barcelona",
     "away_team": "Sevilla FC",
     "home_goals": 1,
-    "away_goals": 0,
+    "away_goals": 1,
     "league": "Spanish La Liga"
   },
   {
@@ -82,10 +82,10 @@
   },
   {
     "fixture_id": 558618,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Juventus FC",
     "away_team": "AC Milan",
-    "home_goals": 0,
+    "home_goals": 1,
     "away_goals": 1,
     "league": "Italian Serie A"
   }
