@@ -54,6 +54,9 @@ prediction_id,model_version,external_fixture_id,home_team,away_team,match_date,p
 738,dixon-coles-v1,558622,SS Lazio,Genoa CFC,2026-08-30,0.4514,0.2874,0.2611,0.3905,0.3333,Home Win,1,0,135,Home Win,True,False,False,True,False,False,True
 739,dixon-coles-v1,558623,Cagliari Calcio,FC Internazionale Milano,2026-08-30,0.1235,0.1607,0.7158,0.5456,0.656,Away Win,0,1,135,Away Win,True,False,True,False,False,True,False
 740,dixon-coles-v1,558621,US Lecce,AS Roma,2026-08-31,0.1216,0.2075,0.671,0.3669,0.4272,Away Win,0,4,135,Away Win,True,False,False,True,True,False,False
+753,dixon-coles-v1,560571,Newcastle United FC,AFC Bournemouth,2026-09-05,0.3945,0.2753,0.3302,0.6097,0.5664,Home Win,2,2,39,Draw,False,True,True,True,True,True,True
+754,dixon-coles-v1,560562,Nottingham Forest FC,Tottenham Hotspur FC,2026-09-05,0.5594,0.2669,0.1737,0.4953,0.4823,Home Win,0,0,39,Draw,False,False,False,True,False,False,True
+755,dixon-coles-v1,560563,Manchester City FC,Coventry City FC,2026-09-05,0.9446,0.0554,0.0,0.0,0.5517,Home Win,1,0,39,Home Win,True,False,False,True,False,True,False
 768,dixon-coles-v1,564651,RC Deportivo La Coruña,Valencia CF,2026-08-30,0.2806,0.2908,0.4285,0.4269,0.3643,Away Win,3,1,140,Home Win,False,True,False,False,True,False,False
 769,dixon-coles-v1,564652,RC Celta de Vigo,Athletic Club,2026-08-30,0.6033,0.2242,0.1725,0.4893,0.5097,Home Win,0,2,140,Away Win,False,False,False,True,False,True,False
 770,dixon-coles-v1,564657,CA Osasuna,Getafe CF,2026-08-31,0.4302,0.349,0.2207,0.2802,0.2083,Home Win,1,0,140,Home Win,True,False,False,True,False,False,True
@@ -61,6 +64,16 @@ prediction_id,model_version,external_fixture_id,home_team,away_team,match_date,p
 776,dixon-coles-v1,558627,ACF Fiorentina,Frosinone Calcio,2026-08-29,0.5216,0.4784,0.0,0.0,0.0388,Home Win,0,3,135,Away Win,False,False,False,True,True,False,False
 782,dixon-coles-v1,558628,Atalanta BC,Bologna FC 1909,2026-08-31,0.5015,0.2532,0.2454,0.4503,0.419,Home Win,1,0,135,Home Win,True,False,False,True,False,False,True
 783,dixon-coles-v1,558609,Genoa CFC,Como 1907,2026-09-04,0.1405,0.2073,0.6522,0.3854,0.4328,Away Win,1,4,135,Away Win,True,True,False,False,True,False,False
+784,dixon-coles-v1,558616,ACF Fiorentina,Torino FC,2026-09-05,0.4124,0.2342,0.3534,0.5515,0.5237,Home Win,1,2,135,Away Win,False,True,True,True,True,True,True
+785,dixon-coles-v1,558614,FC Internazionale Milano,SSC Napoli,2026-09-05,0.5452,0.2113,0.2435,0.5619,0.5701,Home Win,3,2,135,Home Win,True,True,True,True,True,True,True
+800,dixon-coles-v1,560564,Brighton & Hove Albion FC,Leeds United FC,2026-09-05,0.4804,0.2847,0.2349,0.5294,0.4854,Home Win,1,1,39,Draw,False,True,True,True,False,False,True
 814,dixon-coles-v1,564650,FC Barcelona,Rayo Vallecano de Madrid,2026-08-31,0.7876,0.1447,0.0678,0.4036,0.5871,Home Win,5,2,140,Home Win,True,True,False,False,True,True,True
 815,dixon-coles-v1,564682,Real Sociedad de Fútbol,RC Celta de Vigo,2026-09-03,0.5002,0.2301,0.2696,0.5968,0.5891,Home Win,0,0,140,Draw,False,False,True,False,False,True,False
+829,dixon-coles-v1,558611,AS Roma,Atalanta BC,2026-09-05,0.5201,0.2438,0.2362,0.4444,0.4216,Home Win,2,1,135,Home Win,True,True,False,False,True,False,False
 860,dixon-coles-v1,564667,Real Betis Balompié,Real Madrid CF,2026-09-04,0.2821,0.2386,0.4793,0.5776,0.5592,Away Win,1,0,140,Home Win,False,False,True,False,False,True,False
+905,dixon-coles-v1,564663,Athletic Club,Club Atlético de Madrid,2026-09-05,0.3266,0.2494,0.424,0.5725,0.5402,Away Win,3,0,140,Home Win,False,False,True,False,True,True,True
+948,dixon-coles-v1,564660,Rayo Vallecano de Madrid,Real Racing Club de Santander,2026-09-05,0.5621,0.2119,0.226,0.6197,0.6397,Home Win,3,2,140,Home Win,True,True,True,True,True,True,True
+949,dixon-coles-v1,564662,Villarreal CF,RC Deportivo La Coruña,2026-09-05,0.7173,0.1572,0.1255,0.6096,0.7224,Home Win,2,3,140,Away Win,False,True,True,True,True,True,True
+979,dixon-coles-v1,560565,Brentford FC,Sunderland AFC,2026-09-05,0.5094,0.2898,0.2009,0.4788,0.4375,Home Win,1,1,39,Draw,False,True,False,False,False,False,True
+980,dixon-coles-v1,560568,Fulham FC,Crystal Palace FC,2026-09-05,0.4745,0.3025,0.223,0.4731,0.4163,Home Win,2,3,39,Away Win,False,True,False,False,True,False,False
+1064,dixon-coles-v1,560569,Hull City AFC,Aston Villa FC,2026-09-05,0.7953,0.2047,0.0,0.0,0.213,Home Win,0,0,39,Draw,False,False,False,True,False,False,True
