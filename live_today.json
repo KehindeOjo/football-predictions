@@ -1,20 +1,20 @@
 [
   {
     "fixture_id": 564669,
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "home_team": "Sevilla FC",
     "away_team": "Valencia CF",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": 0,
+    "away_goals": 0,
     "league": "Spanish La Liga"
   },
   {
     "fixture_id": 558606,
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "home_team": "Venezia FC",
     "away_team": "ACF Fiorentina",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": 1,
+    "away_goals": 2,
     "league": "Italian Serie A"
   }
 ]
