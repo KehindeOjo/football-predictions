@@ -91,3 +91,5 @@ prediction_id,model_version,external_fixture_id,home_team,away_team,match_date,p
 1095,dixon-coles-v1,558618,Juventus FC,AC Milan,2026-09-06,0.4988,0.2576,0.2436,0.4125,0.3773,Home Win,1,1,135,Draw,False,True,False,False,False,False,True
 1096,dixon-coles-v1,558610,Cagliari Calcio,US Lecce,2026-09-07,0.4463,0.2954,0.2583,0.3585,0.2986,Home Win,1,0,135,Home Win,True,False,False,True,False,False,True
 1097,dixon-coles-v1,558617,Udinese Calcio,SS Lazio,2026-09-07,0.3821,0.287,0.3309,0.4051,0.3399,Home Win,1,2,135,Away Win,False,True,False,False,True,False,False
+1098,dixon-coles-v1,558606,Venezia FC,ACF Fiorentina,2026-09-11,0.1923,0.218,0.5897,0.477,0.4917,Away Win,2,4,135,Away Win,True,True,False,False,True,False,False
+1127,dixon-coles-v1,564669,Sevilla FC,Valencia CF,2026-09-11,0.512,0.2514,0.2367,0.52,0.4975,Home Win,1,0,140,Home Win,True,False,True,False,False,False,True
