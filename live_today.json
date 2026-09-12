@@ -55,11 +55,11 @@
   },
   {
     "fixture_id": 560577,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Sunderland AFC",
     "away_team": "Arsenal FC",
     "home_goals": 0,
-    "away_goals": 0,
+    "away_goals": 2,
     "league": "English Premier League"
   },
   {
@@ -91,11 +91,11 @@
   },
   {
     "fixture_id": 564677,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Real Madrid CF",
     "away_team": "Rayo Vallecano de Madrid",
-    "home_goals": 0,
-    "away_goals": 0,
+    "home_goals": 4,
+    "away_goals": 1,
     "league": "Spanish La Liga"
   },
   {
@@ -118,11 +118,11 @@
   },
   {
     "fixture_id": 558607,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Atalanta BC",
     "away_team": "Cagliari Calcio",
-    "home_goals": 0,
-    "away_goals": 1,
+    "home_goals": 1,
+    "away_goals": 2,
     "league": "Italian Serie A"
   }
 ]
