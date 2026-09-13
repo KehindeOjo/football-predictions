@@ -83,6 +83,10 @@ prediction_id,model_version,external_fixture_id,home_team,away_team,match_date,p
 1064,dixon-coles-v1,560569,Hull City AFC,Aston Villa FC,2026-09-05,0.7953,0.2047,0.0,0.0,0.213,Home Win,0,0,39,Draw,False,False,False,True,False,False,True
 1065,dixon-coles-v1,560567,Everton FC,Manchester United FC,2026-09-06,0.31,0.2806,0.4094,0.6176,0.5738,Away Win,2,2,39,Draw,False,True,True,True,True,True,True
 1066,dixon-coles-v1,560570,Arsenal FC,Chelsea FC,2026-09-06,0.7155,0.1982,0.0863,0.4752,0.5802,Home Win,2,1,39,Home Win,True,True,False,False,True,True,True
+1067,dixon-coles-v1,560572,Crystal Palace FC,Ipswich Town FC,2026-09-12,0.5545,0.2295,0.216,0.6798,0.6969,Home Win,2,3,39,Away Win,False,True,True,True,True,True,True
+1068,dixon-coles-v1,560573,Liverpool FC,Fulham FC,2026-09-12,0.5588,0.2544,0.1868,0.5762,0.5746,Home Win,0,0,39,Draw,False,False,True,False,False,True,False
+1069,dixon-coles-v1,560574,Aston Villa FC,Nottingham Forest FC,2026-09-12,0.401,0.3097,0.2893,0.5303,0.4608,Home Win,1,2,39,Away Win,False,True,True,True,True,False,False
+1070,dixon-coles-v1,560576,AFC Bournemouth,Brentford FC,2026-09-12,0.4284,0.2843,0.2872,0.5959,0.5494,Home Win,2,2,39,Draw,False,True,True,True,True,True,True
 1081,dixon-coles-v1,564666,Málaga CF,Levante UD,2026-09-06,0.1387,0.2794,0.5819,0.2994,0.2917,Away Win,0,0,140,Draw,False,False,False,True,False,False,True
 1082,dixon-coles-v1,564661,RCD Espanyol de Barcelona,Sevilla FC,2026-09-06,0.4916,0.2486,0.2597,0.5317,0.5062,Home Win,1,1,140,Draw,False,True,True,True,False,True,False
 1083,dixon-coles-v1,564665,Getafe CF,RC Celta de Vigo,2026-09-07,0.3362,0.3798,0.2841,0.2623,0.1747,Draw,1,1,140,Draw,True,True,False,False,False,False,True
@@ -92,4 +96,14 @@ prediction_id,model_version,external_fixture_id,home_team,away_team,match_date,p
 1096,dixon-coles-v1,558610,Cagliari Calcio,US Lecce,2026-09-07,0.4463,0.2954,0.2583,0.3585,0.2986,Home Win,1,0,135,Home Win,True,False,False,True,False,False,True
 1097,dixon-coles-v1,558617,Udinese Calcio,SS Lazio,2026-09-07,0.3821,0.287,0.3309,0.4051,0.3399,Home Win,1,2,135,Away Win,False,True,False,False,True,False,False
 1098,dixon-coles-v1,558606,Venezia FC,ACF Fiorentina,2026-09-11,0.1923,0.218,0.5897,0.477,0.4917,Away Win,2,4,135,Away Win,True,True,False,False,True,False,False
+1099,dixon-coles-v1,558604,Genoa CFC,Frosinone Calcio,2026-09-12,0.2178,0.2457,0.5365,0.4387,0.4202,Away Win,1,1,135,Draw,False,True,False,False,False,False,True
+1115,dixon-coles-v1,560581,Chelsea FC,Hull City AFC,2026-09-12,0.0,0.3737,0.6263,0.0,0.0774,Away Win,2,2,39,Draw,False,True,False,False,True,False,False
 1127,dixon-coles-v1,564669,Sevilla FC,Valencia CF,2026-09-11,0.512,0.2514,0.2367,0.52,0.4975,Home Win,1,0,140,Home Win,True,False,True,False,False,False,True
+1128,dixon-coles-v1,564670,Real Racing Club de Santander,Deportivo Alavés,2026-09-12,0.4208,0.2015,0.3777,0.7765,0.7972,Home Win,2,1,140,Home Win,True,True,True,True,True,True,True
+1129,dixon-coles-v1,564673,CA Osasuna,RCD Espanyol de Barcelona,2026-09-12,0.4779,0.2658,0.2563,0.4886,0.4486,Home Win,0,2,140,Away Win,False,False,False,True,False,False,True
+1130,dixon-coles-v1,564676,Athletic Club,Elche CF,2026-09-12,0.5442,0.2298,0.2259,0.5667,0.5677,Home Win,1,1,140,Draw,False,True,True,True,False,True,False
+1143,dixon-coles-v1,558600,SS Lazio,AC Milan,2026-09-12,0.3109,0.3019,0.3872,0.3643,0.2942,Away Win,2,2,135,Draw,False,True,False,False,True,False,False
+1144,dixon-coles-v1,558607,Atalanta BC,Cagliari Calcio,2026-09-12,0.5257,0.2637,0.2106,0.3857,0.3561,Home Win,1,2,135,Away Win,False,True,False,False,True,False,False
+1219,dixon-coles-v1,564677,Real Madrid CF,Rayo Vallecano de Madrid,2026-09-12,0.7344,0.1703,0.0952,0.4524,0.576,Home Win,4,1,140,Home Win,True,True,False,False,True,True,True
+1295,dixon-coles-v1,560575,Tottenham Hotspur FC,Everton FC,2026-09-12,0.2798,0.322,0.3982,0.4946,0.4163,Away Win,0,0,39,Draw,False,False,False,True,False,False,True
+1334,dixon-coles-v1,560577,Sunderland AFC,Arsenal FC,2026-09-12,0.1285,0.3037,0.5678,0.3562,0.3333,Away Win,0,2,39,Away Win,True,False,False,True,False,False,True
