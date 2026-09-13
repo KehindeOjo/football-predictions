@@ -46,11 +46,11 @@
   },
   {
     "fixture_id": 564674,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Real Sociedad de F\u00fatbol",
     "away_team": "Club Atl\u00e9tico de Madrid",
     "home_goals": 0,
-    "away_goals": 2,
+    "away_goals": 3,
     "league": "Spanish La Liga"
   },
   {
