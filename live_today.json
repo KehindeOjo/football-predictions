@@ -1,47 +1,29 @@
 [
   {
-    "fixture_id": 560579,
-    "status": "FINISHED",
-    "home_team": "Leeds United FC",
-    "away_team": "Newcastle United FC",
-    "home_goals": 4,
-    "away_goals": 1,
-    "league": "English Premier League"
-  },
-  {
-    "fixture_id": 564671,
-    "status": "FINISHED",
-    "home_team": "Villarreal CF",
-    "away_team": "Real Betis Balompi\u00e9",
-    "home_goals": 1,
-    "away_goals": 2,
+    "fixture_id": 564678,
+    "status": "TIMED",
+    "home_team": "Rayo Vallecano de Madrid",
+    "away_team": "RCD Espanyol de Barcelona",
+    "home_goals": null,
+    "away_goals": null,
     "league": "Spanish La Liga"
   },
   {
-    "fixture_id": 558602,
-    "status": "FINISHED",
-    "home_team": "Como 1907",
-    "away_team": "Parma Calcio 1913",
-    "home_goals": 2,
-    "away_goals": 1,
-    "league": "Italian Serie A"
+    "fixture_id": 564680,
+    "status": "TIMED",
+    "home_team": "Deportivo Alav\u00e9s",
+    "away_team": "Valencia CF",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "Spanish La Liga"
   },
   {
-    "fixture_id": 558603,
-    "status": "FINISHED",
-    "home_team": "Torino FC",
-    "away_team": "AS Roma",
-    "home_goals": 0,
-    "away_goals": 2,
-    "league": "Italian Serie A"
-  },
-  {
-    "fixture_id": 558601,
-    "status": "FINISHED",
-    "home_team": "FC Internazionale Milano",
-    "away_team": "Udinese Calcio",
-    "home_goals": 5,
-    "away_goals": 3,
-    "league": "Italian Serie A"
+    "fixture_id": 564681,
+    "status": "TIMED",
+    "home_team": "Elche CF",
+    "away_team": "Real Madrid CF",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "Spanish La Liga"
   }
 ]
