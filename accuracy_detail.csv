@@ -121,3 +121,6 @@ prediction_id,model_version,external_fixture_id,home_team,away_team,match_date,p
 1369,dixon-coles-v1,558602,Como 1907,Parma Calcio 1913,2026-09-14,0.7137,0.2009,0.0854,0.2811,0.378,Home Win,2,1,135,Home Win,True,True,False,False,True,False,False
 1370,dixon-coles-v1,558603,Torino FC,AS Roma,2026-09-14,0.1126,0.1522,0.7352,0.5247,0.6517,Away Win,0,2,135,Away Win,True,False,True,False,False,True,False
 1397,dixon-coles-v1,564671,Villarreal CF,Real Betis Balompié,2026-09-14,0.5302,0.2323,0.2376,0.6063,0.6066,Home Win,1,2,140,Away Win,False,True,True,True,True,True,True
+1398,dixon-coles-v1,564678,Rayo Vallecano de Madrid,RCD Espanyol de Barcelona,2026-09-15,0.459,0.2796,0.2614,0.4889,0.439,Home Win,2,1,140,Home Win,True,True,False,False,True,False,False
+1399,dixon-coles-v1,564680,Deportivo Alavés,Valencia CF,2026-09-15,0.5744,0.2408,0.1848,0.5065,0.5095,Home Win,0,1,140,Away Win,False,False,True,False,False,True,False
+1400,dixon-coles-v1,564681,Elche CF,Real Madrid CF,2026-09-15,0.1668,0.2077,0.6256,0.5742,0.618,Away Win,2,3,140,Away Win,True,True,True,True,True,True,True
