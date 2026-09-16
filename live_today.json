@@ -1,38 +1,38 @@
 [
   {
     "fixture_id": 564679,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "RC Deportivo La Coru\u00f1a",
     "away_team": "Sevilla FC",
-    "home_goals": 0.0,
-    "away_goals": 1.0,
+    "home_goals": 0,
+    "away_goals": 1,
     "league": "Spanish La Liga"
   },
   {
     "fixture_id": 564684,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Club Atl\u00e9tico de Madrid",
     "away_team": "CA Osasuna",
-    "home_goals": 3.0,
-    "away_goals": 0.0,
+    "home_goals": 4,
+    "away_goals": 0,
     "league": "Spanish La Liga"
   },
   {
     "fixture_id": 564685,
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "home_team": "Levante UD",
     "away_team": "Athletic Club",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": 0,
+    "away_goals": 0,
     "league": "Spanish La Liga"
   },
   {
     "fixture_id": 564687,
-    "status": "TIMED",
+    "status": "FINISHED",
     "home_team": "FC Barcelona",
     "away_team": "Real Racing Club de Santander",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": 7,
+    "away_goals": 2,
     "league": "Spanish La Liga"
   }
 ]
