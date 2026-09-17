@@ -10,11 +10,11 @@
   },
   {
     "fixture_id": 564683,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "M\u00e1laga CF",
     "away_team": "Villarreal CF",
     "home_goals": 1,
-    "away_goals": 2,
+    "away_goals": 3,
     "league": "Spanish La Liga"
   }
 ]
