@@ -124,3 +124,6 @@ prediction_id,model_version,external_fixture_id,home_team,away_team,match_date,p
 1398,dixon-coles-v1,564678,Rayo Vallecano de Madrid,RCD Espanyol de Barcelona,2026-09-15,0.459,0.2796,0.2614,0.4889,0.439,Home Win,2,1,140,Home Win,True,True,False,False,True,False,False
 1399,dixon-coles-v1,564680,Deportivo Alavés,Valencia CF,2026-09-15,0.5744,0.2408,0.1848,0.5065,0.5095,Home Win,0,1,140,Away Win,False,False,True,False,False,True,False
 1400,dixon-coles-v1,564681,Elche CF,Real Madrid CF,2026-09-15,0.1668,0.2077,0.6256,0.5742,0.618,Away Win,2,3,140,Away Win,True,True,True,True,True,True,True
+1444,dixon-coles-v1,564679,RC Deportivo La Coruña,Sevilla FC,2026-09-16,0.6368,0.1914,0.1718,0.627,0.6852,Home Win,0,1,140,Away Win,False,False,True,False,False,True,False
+1445,dixon-coles-v1,564684,Club Atlético de Madrid,CA Osasuna,2026-09-16,0.655,0.2016,0.1434,0.5235,0.5822,Home Win,4,0,140,Home Win,True,False,True,False,True,True,True
+1708,dixon-coles-v1,564687,FC Barcelona,Real Racing Club de Santander,2026-09-16,0.9198,0.0521,0.0281,0.6216,0.9212,Home Win,7,2,140,Home Win,True,True,True,True,True,True,True
