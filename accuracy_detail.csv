@@ -127,3 +127,5 @@ prediction_id,model_version,external_fixture_id,home_team,away_team,match_date,p
 1444,dixon-coles-v1,564679,RC Deportivo La Coruña,Sevilla FC,2026-09-16,0.6368,0.1914,0.1718,0.627,0.6852,Home Win,0,1,140,Away Win,False,False,True,False,False,True,False
 1445,dixon-coles-v1,564684,Club Atlético de Madrid,CA Osasuna,2026-09-16,0.655,0.2016,0.1434,0.5235,0.5822,Home Win,4,0,140,Home Win,True,False,True,False,True,True,True
 1708,dixon-coles-v1,564687,FC Barcelona,Real Racing Club de Santander,2026-09-16,0.9198,0.0521,0.0281,0.6216,0.9212,Home Win,7,2,140,Home Win,True,True,True,True,True,True,True
+1709,dixon-coles-v1,564686,Real Betis Balompié,Getafe CF,2026-09-17,0.5406,0.3022,0.1572,0.2999,0.2687,Home Win,1,0,140,Home Win,True,False,False,True,False,False,True
+1710,dixon-coles-v1,564683,Málaga CF,Villarreal CF,2026-09-17,0.1295,0.276,0.5945,0.2991,0.2986,Away Win,1,3,140,Away Win,True,True,False,False,True,False,False
