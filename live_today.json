@@ -1,29 +1,119 @@
 [
   {
-    "fixture_id": 560591,
-    "status": "FINISHED",
-    "home_team": "Brentford FC",
-    "away_team": "Chelsea FC",
-    "home_goals": 3,
-    "away_goals": 0,
+    "fixture_id": 560587,
+    "status": "TIMED",
+    "home_team": "Tottenham Hotspur FC",
+    "away_team": "Aston Villa FC",
+    "home_goals": null,
+    "away_goals": null,
     "league": "English Premier League"
   },
   {
-    "fixture_id": 564692,
-    "status": "FINISHED",
-    "home_team": "RCD Espanyol de Barcelona",
-    "away_team": "Elche CF",
-    "home_goals": 1,
-    "away_goals": 3,
+    "fixture_id": 560584,
+    "status": "TIMED",
+    "home_team": "Everton FC",
+    "away_team": "Ipswich Town FC",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "English Premier League"
+  },
+  {
+    "fixture_id": 560586,
+    "status": "TIMED",
+    "home_team": "Brighton & Hove Albion FC",
+    "away_team": "Arsenal FC",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "English Premier League"
+  },
+  {
+    "fixture_id": 560588,
+    "status": "TIMED",
+    "home_team": "Newcastle United FC",
+    "away_team": "Hull City AFC",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "English Premier League"
+  },
+  {
+    "fixture_id": 560589,
+    "status": "TIMED",
+    "home_team": "Nottingham Forest FC",
+    "away_team": "Coventry City FC",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "English Premier League"
+  },
+  {
+    "fixture_id": 564693,
+    "status": "TIMED",
+    "home_team": "CA Osasuna",
+    "away_team": "Rayo Vallecano de Madrid",
+    "home_goals": null,
+    "away_goals": null,
     "league": "Spanish La Liga"
   },
   {
-    "fixture_id": 558596,
-    "status": "FINISHED",
-    "home_team": "AC Monza",
-    "away_team": "US Sassuolo Calcio",
-    "home_goals": 2,
-    "away_goals": 1,
+    "fixture_id": 564691,
+    "status": "TIMED",
+    "home_team": "Athletic Club",
+    "away_team": "Deportivo Alav\u00e9s",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "Spanish La Liga"
+  },
+  {
+    "fixture_id": 564694,
+    "status": "TIMED",
+    "home_team": "RC Celta de Vigo",
+    "away_team": "Real Racing Club de Santander",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "Spanish La Liga"
+  },
+  {
+    "fixture_id": 564690,
+    "status": "TIMED",
+    "home_team": "Sevilla FC",
+    "away_team": "FC Barcelona",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "Spanish La Liga"
+  },
+  {
+    "fixture_id": 558598,
+    "status": "TIMED",
+    "home_team": "Bologna FC 1909",
+    "away_team": "Torino FC",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "Italian Serie A"
+  },
+  {
+    "fixture_id": 558589,
+    "status": "TIMED",
+    "home_team": "Udinese Calcio",
+    "away_team": "Cagliari Calcio",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "Italian Serie A"
+  },
+  {
+    "fixture_id": 558593,
+    "status": "TIMED",
+    "home_team": "AS Roma",
+    "away_team": "FC Internazionale Milano",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "Italian Serie A"
+  },
+  {
+    "fixture_id": 558594,
+    "status": "TIMED",
+    "home_team": "Venezia FC",
+    "away_team": "SS Lazio",
+    "home_goals": null,
+    "away_goals": null,
     "league": "Italian Serie A"
   }
 ]
