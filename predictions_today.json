@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "home_team": "M\u00e1laga CF",
+    "away_team": "RCD Espanyol de Barcelona",
+    "expected_goals_home": 0.58,
+    "expected_goals_away": 1.11,
+    "prob_home_win": 0.1862,
+    "prob_draw": 0.3362,
+    "prob_away_win": 0.4776,
+    "prob_btts_yes": 0.3001,
+    "prob_over_2_5": 0.239,
+    "prob_under_2_5": 0.761,
+    "top_pick": "Away Win",
+    "top_pick_confidence": 0.4776,
+    "fixture_id": 564706,
+    "date": "2026-10-09",
+    "league": "Spanish La Liga"
+  }
+]
