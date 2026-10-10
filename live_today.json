@@ -82,10 +82,10 @@
   },
   {
     "fixture_id": 564702,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Real Madrid CF",
     "away_team": "Villarreal CF",
-    "home_goals": 0,
+    "home_goals": 1,
     "away_goals": 0,
     "league": "Spanish La Liga"
   },
@@ -109,10 +109,10 @@
   },
   {
     "fixture_id": 558586,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "SSC Napoli",
     "away_team": "Frosinone Calcio",
-    "home_goals": 2,
+    "home_goals": 3,
     "away_goals": 0,
     "league": "Italian Serie A"
   }
