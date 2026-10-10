@@ -159,3 +159,4 @@ prediction_id,model_version,external_fixture_id,home_team,away_team,match_date,p
 1804,dixon-coles-v1,564695,RC Deportivo La Coruña,Real Betis Balompié,2026-09-20,0.388,0.2647,0.3473,0.5665,0.523,Home Win,1,1,140,Draw,False,True,True,True,False,True,False
 1805,dixon-coles-v1,564696,Villarreal CF,Levante UD,2026-09-20,0.657,0.1834,0.1596,0.6381,0.7093,Home Win,3,1,140,Home Win,True,True,True,True,True,True,True
 1847,dixon-coles-v1,564689,Valencia CF,Real Sociedad de Fútbol,2026-09-20,0.4215,0.2622,0.3162,0.5661,0.5262,Home Win,2,3,140,Away Win,False,True,True,True,True,True,True
+1848,dixon-coles-v1,564706,Málaga CF,RCD Espanyol de Barcelona,2026-10-09,0.1862,0.3362,0.4776,0.3001,0.239,Away Win,1,1,140,Draw,False,True,False,False,False,False,True
