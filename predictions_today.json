@@ -1,1 +1,36 @@
-[]
+[
+  {
+    "home_team": "RC Deportivo La Coru\u00f1a",
+    "away_team": "Levante UD",
+    "expected_goals_home": 2.1,
+    "expected_goals_away": 1.33,
+    "prob_home_win": 0.5452,
+    "prob_draw": 0.221,
+    "prob_away_win": 0.2339,
+    "prob_btts_yes": 0.651,
+    "prob_over_2_5": 0.6657,
+    "prob_under_2_5": 0.3343,
+    "top_pick": "Home Win",
+    "top_pick_confidence": 0.5452,
+    "fixture_id": 564716,
+    "date": "2026-10-16",
+    "league": "Spanish La Liga"
+  },
+  {
+    "home_team": "Frosinone Calcio",
+    "away_team": "US Sassuolo Calcio",
+    "expected_goals_home": 1.55,
+    "expected_goals_away": 1.13,
+    "prob_home_win": 0.4702,
+    "prob_draw": 0.2524,
+    "prob_away_win": 0.2775,
+    "prob_btts_yes": 0.5343,
+    "prob_over_2_5": 0.5027,
+    "prob_under_2_5": 0.4973,
+    "top_pick": "Home Win",
+    "top_pick_confidence": 0.4702,
+    "fixture_id": 558573,
+    "date": "2026-10-16",
+    "league": "Italian Serie A"
+  }
+]
