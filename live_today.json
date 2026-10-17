@@ -4,8 +4,8 @@
     "status": "FINISHED",
     "home_team": "Everton FC",
     "away_team": "Chelsea FC",
-    "home_goals": 0.0,
-    "away_goals": 2.0,
+    "home_goals": 0,
+    "away_goals": 2,
     "league": "English Premier League"
   },
   {
@@ -13,35 +13,35 @@
     "status": "FINISHED",
     "home_team": "Fulham FC",
     "away_team": "Hull City AFC",
-    "home_goals": 1.0,
-    "away_goals": 0.0,
+    "home_goals": 1,
+    "away_goals": 0,
     "league": "English Premier League"
   },
   {
     "fixture_id": 560610,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Manchester City FC",
     "away_team": "Ipswich Town FC",
-    "home_goals": 3.0,
-    "away_goals": 2.0,
+    "home_goals": 3,
+    "away_goals": 2,
     "league": "English Premier League"
   },
   {
     "fixture_id": 560611,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Brentford FC",
     "away_team": "Liverpool FC",
-    "home_goals": 1.0,
-    "away_goals": 2.0,
+    "home_goals": 1,
+    "away_goals": 2,
     "league": "English Premier League"
   },
   {
     "fixture_id": 560607,
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "home_team": "Newcastle United FC",
     "away_team": "Aston Villa FC",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": 0,
+    "away_goals": 1,
     "league": "English Premier League"
   },
   {
@@ -55,7 +55,7 @@
   },
   {
     "fixture_id": 564708,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Villarreal CF",
     "away_team": "Elche CF",
     "home_goals": 0.0,
@@ -64,11 +64,11 @@
   },
   {
     "fixture_id": 564713,
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "home_team": "Real Betis Balompi\u00e9",
     "away_team": "FC Barcelona",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": 2.0,
+    "away_goals": 5.0,
     "league": "Spanish La Liga"
   },
   {
@@ -91,11 +91,11 @@
   },
   {
     "fixture_id": 558571,
-    "status": "TIMED",
+    "status": "FINISHED",
     "home_team": "Bologna FC 1909",
     "away_team": "FC Internazionale Milano",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": 1.0,
+    "away_goals": 3.0,
     "league": "Italian Serie A"
   },
   {
