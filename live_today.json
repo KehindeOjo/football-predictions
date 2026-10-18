@@ -40,8 +40,8 @@
     "status": "FINISHED",
     "home_team": "CA Osasuna",
     "away_team": "Real Racing Club de Santander",
-    "home_goals": 2.0,
-    "away_goals": 0.0,
+    "home_goals": 2,
+    "away_goals": 0,
     "league": "Spanish La Liga"
   },
   {
@@ -49,8 +49,8 @@
     "status": "FINISHED",
     "home_team": "RC Celta de Vigo",
     "away_team": "Deportivo Alav\u00e9s",
-    "home_goals": 2.0,
-    "away_goals": 1.0,
+    "home_goals": 2,
+    "away_goals": 1,
     "league": "Spanish La Liga"
   },
   {
@@ -58,17 +58,17 @@
     "status": "FINISHED",
     "home_team": "M\u00e1laga CF",
     "away_team": "Real Sociedad de F\u00fatbol",
-    "home_goals": 2.0,
-    "away_goals": 5.0,
+    "home_goals": 2,
+    "away_goals": 5,
     "league": "Spanish La Liga"
   },
   {
     "fixture_id": 564709,
-    "status": "TIMED",
+    "status": "FINISHED",
     "home_team": "Real Madrid CF",
     "away_team": "Sevilla FC",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": 4,
+    "away_goals": 1,
     "league": "Spanish La Liga"
   },
   {
@@ -100,11 +100,11 @@
   },
   {
     "fixture_id": 558570,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Juventus FC",
     "away_team": "SS Lazio",
     "home_goals": 0,
-    "away_goals": 0,
+    "away_goals": 3,
     "league": "Italian Serie A"
   }
 ]
