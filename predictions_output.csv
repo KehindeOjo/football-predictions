@@ -1,46 +1,46 @@
 home_team,away_team,expected_goals_home,expected_goals_away,prob_home_win,prob_draw,prob_away_win,prob_btts_yes,prob_over_2_5,prob_under_2_5,top_pick,top_pick_confidence,fixture_id,date,league
-Everton FC,Chelsea FC,1.64,1.45,0.4072,0.2691,0.3237,0.6318,0.5958,0.4042,Home Win,0.4072,560603,2026-10-17,English Premier League
-Fulham FC,Hull City AFC,0.85,1.13,0.255,0.3434,0.4016,0.409,0.3205,0.6795,Away Win,0.4016,560602,2026-10-17,English Premier League
-Manchester City FC,Ipswich Town FC,3.48,0.85,0.847,0.1047,0.0483,0.5623,0.8053,0.1947,Home Win,0.847,560610,2026-10-17,English Premier League
-Brentford FC,Liverpool FC,1.64,1.23,0.4522,0.2765,0.2713,0.5872,0.5472,0.4528,Home Win,0.4522,560611,2026-10-17,English Premier League
-Newcastle United FC,Aston Villa FC,1.79,1.64,0.404,0.252,0.344,0.6856,0.6665,0.3335,Home Win,0.404,560607,2026-10-17,English Premier League
-AFC Bournemouth,Sunderland AFC,1.64,1.1,0.4834,0.2789,0.2377,0.554,0.5158,0.4842,Home Win,0.4834,560604,2026-10-18,English Premier League
-Leeds United FC,Manchester United FC,1.39,1.35,0.3638,0.2903,0.3459,0.5752,0.518,0.482,Home Win,0.3638,560605,2026-10-18,English Premier League
-Brighton & Hove Albion FC,Crystal Palace FC,2.27,0.87,0.6766,0.2066,0.1168,0.5325,0.606,0.394,Home Win,0.6766,560609,2026-10-18,English Premier League
-Nottingham Forest FC,Arsenal FC,0.71,1.49,0.1609,0.2971,0.542,0.4097,0.376,0.624,Away Win,0.542,560608,2026-10-18,English Premier League
-Tottenham Hotspur FC,Coventry City FC,1.22,1.01,0.3906,0.3252,0.2842,0.4663,0.3845,0.6155,Home Win,0.3906,560606,2026-10-19,English Premier League
-Ipswich Town FC,Nottingham Forest FC,1.56,1.6,0.3585,0.2666,0.3749,0.645,0.6109,0.3891,Away Win,0.3749,560620,2026-10-23,English Premier League
-Aston Villa FC,Manchester City FC,1.04,2.06,0.1699,0.2356,0.5945,0.5767,0.597,0.403,Away Win,0.5945,560614,2026-10-24,English Premier League
-Arsenal FC,Everton FC,1.7,0.6,0.6249,0.2618,0.1133,0.385,0.4042,0.5958,Home Win,0.6249,560616,2026-10-24,English Premier League
-Coventry City FC,Fulham FC,1.13,1.06,0.3531,0.3306,0.3163,0.4611,0.374,0.626,Home Win,0.3531,560618,2026-10-24,English Premier League
-Chelsea FC,Tottenham Hotspur FC,2.14,1.07,0.6038,0.228,0.1682,0.5942,0.6229,0.3771,Home Win,0.6038,560617,2026-10-24,English Premier League
-Elche CF,RC Celta de Vigo,1.44,1.31,0.3947,0.2669,0.3384,0.5629,0.5181,0.4819,Home Win,0.3947,564703,2026-10-11,Spanish La Liga
-Real Sociedad de Fútbol,RC Deportivo La Coruña,1.86,1.41,0.4768,0.2356,0.2876,0.6424,0.6336,0.3664,Home Win,0.4768,564707,2026-10-11,Spanish La Liga
-Real Betis Balompié,CA Osasuna,2.0,0.78,0.6552,0.2134,0.1314,0.4713,0.5242,0.4758,Home Win,0.6552,564701,2026-10-11,Spanish La Liga
-Real Racing Club de Santander,Valencia CF,2.1,1.8,0.4499,0.2156,0.3345,0.7361,0.7465,0.2535,Home Win,0.4499,564705,2026-10-11,Spanish La Liga
-Levante UD,Sevilla FC,1.62,1.25,0.4548,0.2561,0.2891,0.5769,0.5458,0.4542,Home Win,0.4548,564704,2026-10-12,Spanish La Liga
-RC Deportivo La Coruña,Levante UD,1.9,1.14,0.5462,0.233,0.2209,0.5845,0.587,0.413,Home Win,0.5462,564716,2026-10-16,Spanish La Liga
-RCD Espanyol de Barcelona,Club Atlético de Madrid,1.17,1.61,0.2703,0.2583,0.4714,0.557,0.5255,0.4745,Away Win,0.4714,564710,2026-10-17,Spanish La Liga
-Villarreal CF,Elche CF,2.57,1.15,0.677,0.1768,0.1462,0.6339,0.7176,0.2824,Home Win,0.677,564708,2026-10-17,Spanish La Liga
-Real Betis Balompié,FC Barcelona,1.23,2.03,0.2238,0.2233,0.5529,0.6197,0.6322,0.3678,Away Win,0.5529,564713,2026-10-17,Spanish La Liga
-Valencia CF,Athletic Club,1.26,1.05,0.4045,0.2938,0.3017,0.4726,0.4072,0.5928,Home Win,0.4045,564711,2026-10-17,Spanish La Liga
-CA Osasuna,Real Racing Club de Santander,2.51,1.61,0.5712,0.1934,0.2354,0.7375,0.7783,0.2217,Home Win,0.5712,564715,2026-10-18,Spanish La Liga
-RC Celta de Vigo,Deportivo Alavés,1.49,0.94,0.4942,0.2737,0.2321,0.479,0.4393,0.5607,Home Win,0.4942,564712,2026-10-18,Spanish La Liga
-Málaga CF,Real Sociedad de Fútbol,0.78,1.5,0.1885,0.274,0.5374,0.4253,0.3971,0.6029,Away Win,0.5374,564714,2026-10-18,Spanish La Liga
-Real Madrid CF,Sevilla FC,2.47,0.72,0.7525,0.1619,0.0856,0.4756,0.6185,0.3815,Home Win,0.7525,564709,2026-10-18,Spanish La Liga
-Getafe CF,Rayo Vallecano de Madrid,0.8,0.74,0.3297,0.3737,0.2966,0.2946,0.2016,0.7984,Draw,0.3737,564717,2026-10-19,Spanish La Liga
-Venezia FC,SSC Napoli,0.68,3.17,0.0493,0.0991,0.8516,0.4731,0.7374,0.2626,Away Win,0.8516,558575,2026-10-17,Italian Serie A
-Bologna FC 1909,FC Internazionale Milano,1.07,2.31,0.1623,0.1863,0.6514,0.5916,0.6565,0.3435,Away Win,0.6514,558571,2026-10-17,Italian Serie A
-AS Roma,Genoa CFC,2.22,0.59,0.749,0.1678,0.0832,0.3957,0.5329,0.4671,Home Win,0.749,558572,2026-10-17,Italian Serie A
-Udinese Calcio,US Lecce,1.59,0.82,0.5563,0.2502,0.1935,0.4451,0.4329,0.5671,Home Win,0.5563,558574,2026-10-18,Italian Serie A
-ACF Fiorentina,Como 1907,0.75,1.92,0.1384,0.2104,0.6512,0.4486,0.4979,0.5021,Away Win,0.6512,558577,2026-10-18,Italian Serie A
-AC Milan,Atalanta BC,1.23,0.94,0.428,0.2884,0.2836,0.4315,0.37,0.63,Home Win,0.428,558569,2026-10-18,Italian Serie A
-Juventus FC,SS Lazio,1.34,0.8,0.4958,0.2811,0.2231,0.4045,0.3598,0.6402,Home Win,0.4958,558570,2026-10-18,Italian Serie A
-AC Monza,Cagliari Calcio,1.42,1.88,0.2918,0.2235,0.4847,0.6413,0.6396,0.3604,Away Win,0.4847,558576,2026-10-19,Italian Serie A
-Parma Calcio 1913,Torino FC,0.97,1.12,0.3132,0.2985,0.3883,0.4172,0.3469,0.6531,Away Win,0.3883,558578,2026-10-19,Italian Serie A
-Torino FC,AC Monza,2.45,1.76,0.5311,0.1913,0.2776,0.7569,0.7914,0.2086,Home Win,0.5311,558567,2026-10-23,Italian Serie A
-Cagliari Calcio,Bologna FC 1909,1.1,0.97,0.382,0.2999,0.3181,0.4146,0.3432,0.6568,Home Win,0.382,558560,2026-10-24,Italian Serie A
-Como 1907,US Sassuolo Calcio,2.17,0.84,0.68,0.1882,0.1318,0.5017,0.5788,0.4212,Home Win,0.68,558561,2026-10-24,Italian Serie A
-SSC Napoli,AS Roma,1.0,1.27,0.2923,0.281,0.4267,0.4551,0.3974,0.6026,Away Win,0.4267,558564,2026-10-24,Italian Serie A
-SS Lazio,Parma Calcio 1913,1.21,0.55,0.5242,0.3059,0.17,0.2979,0.2599,0.7401,Home Win,0.5242,558565,2026-10-24,Italian Serie A
-FC Internazionale Milano,ACF Fiorentina,3.17,0.88,0.8168,0.1127,0.0705,0.562,0.769,0.231,Home Win,0.8168,558563,2026-10-25,Italian Serie A
+AFC Bournemouth,Sunderland AFC,1.63,1.12,0.4801,0.272,0.2479,0.5543,0.5183,0.4817,Home Win,0.4801,560604,2026-10-18,English Premier League
+Leeds United FC,Manchester United FC,1.4,1.38,0.3637,0.2809,0.3554,0.5762,0.5244,0.4756,Home Win,0.3637,560605,2026-10-18,English Premier League
+Brighton & Hove Albion FC,Crystal Palace FC,2.26,0.88,0.6775,0.2015,0.121,0.5324,0.6073,0.3927,Home Win,0.6775,560609,2026-10-18,English Premier League
+Nottingham Forest FC,Arsenal FC,0.72,1.51,0.1641,0.2865,0.5495,0.4116,0.3842,0.6158,Away Win,0.5495,560608,2026-10-18,English Premier League
+Tottenham Hotspur FC,Coventry City FC,1.26,1.03,0.4008,0.3121,0.2871,0.4732,0.3987,0.6013,Home Win,0.4008,560606,2026-10-19,English Premier League
+Ipswich Town FC,Nottingham Forest FC,1.76,1.58,0.4142,0.2497,0.336,0.6682,0.6484,0.3516,Home Win,0.4142,560620,2026-10-23,English Premier League
+Aston Villa FC,Manchester City FC,1.07,1.94,0.1931,0.2412,0.5657,0.5738,0.5792,0.4208,Away Win,0.5657,560614,2026-10-24,English Premier League
+Arsenal FC,Everton FC,1.74,0.58,0.644,0.2482,0.1078,0.3733,0.4079,0.5921,Home Win,0.644,560616,2026-10-24,English Premier League
+Coventry City FC,Fulham FC,1.07,1.11,0.3276,0.3224,0.35,0.4563,0.373,0.627,Away Win,0.35,560618,2026-10-24,English Premier League
+Chelsea FC,Tottenham Hotspur FC,2.18,1.04,0.6221,0.2171,0.1608,0.585,0.6253,0.3747,Home Win,0.6221,560617,2026-10-24,English Premier League
+Liverpool FC,Brighton & Hove Albion FC,1.32,1.51,0.3188,0.2759,0.4054,0.5851,0.539,0.461,Away Win,0.4054,560612,2026-10-25,English Premier League
+Crystal Palace FC,Newcastle United FC,1.67,1.46,0.4143,0.2597,0.326,0.6353,0.6054,0.3946,Home Win,0.4143,560613,2026-10-25,English Premier League
+Manchester United FC,AFC Bournemouth,2.08,1.25,0.5536,0.2312,0.2153,0.6342,0.6455,0.3545,Home Win,0.5536,560615,2026-10-25,English Premier League
+Hull City AFC,Brentford FC,1.14,1.05,0.363,0.3217,0.3153,0.4567,0.3742,0.6258,Home Win,0.363,560619,2026-10-25,English Premier League
+Sunderland AFC,Leeds United FC,1.09,1.25,0.3057,0.3095,0.3848,0.4864,0.4124,0.5876,Away Win,0.3848,560621,2026-10-25,English Premier League
+CA Osasuna,Real Racing Club de Santander,2.71,1.8,0.5668,0.1884,0.2448,0.784,0.8274,0.1726,Home Win,0.5668,564715,2026-10-18,Spanish La Liga
+RC Celta de Vigo,Deportivo Alavés,1.42,0.9,0.482,0.2913,0.2267,0.4608,0.4098,0.5902,Home Win,0.482,564712,2026-10-18,Spanish La Liga
+Málaga CF,Real Sociedad de Fútbol,0.8,1.61,0.1759,0.269,0.555,0.45,0.4316,0.5684,Away Win,0.555,564714,2026-10-18,Spanish La Liga
+Real Madrid CF,Sevilla FC,2.56,0.78,0.7525,0.1623,0.0852,0.5052,0.6485,0.3515,Home Win,0.7525,564709,2026-10-18,Spanish La Liga
+Getafe CF,Rayo Vallecano de Madrid,0.77,0.73,0.3172,0.3888,0.294,0.2891,0.1912,0.8088,Draw,0.3888,564717,2026-10-19,Spanish La Liga
+Levante UD,Athletic Club,1.53,1.17,0.4456,0.274,0.2804,0.5504,0.5062,0.4938,Home Win,0.4456,564685,2026-10-21,Spanish La Liga
+Deportivo Alavés,Málaga CF,1.73,0.46,0.6783,0.2358,0.0859,0.3134,0.3761,0.6239,Home Win,0.6783,564719,2026-10-23,Spanish La Liga
+Rayo Vallecano de Madrid,Elche CF,1.61,1.08,0.4878,0.2684,0.2438,0.5379,0.5036,0.4964,Home Win,0.4878,564718,2026-10-24,Spanish La Liga
+Real Racing Club de Santander,RCD Espanyol de Barcelona,2.06,1.88,0.426,0.221,0.3531,0.7456,0.7527,0.2473,Home Win,0.426,564727,2026-10-24,Spanish La Liga
+Valencia CF,Villarreal CF,1.13,1.43,0.2877,0.2836,0.4287,0.5273,0.4735,0.5265,Away Win,0.4287,564722,2026-10-24,Spanish La Liga
+Club Atlético de Madrid,RC Deportivo La Coruña,2.27,0.9,0.6755,0.1977,0.1268,0.5391,0.6135,0.3865,Home Win,0.6755,564724,2026-10-24,Spanish La Liga
+Athletic Club,Getafe CF,0.92,0.53,0.4228,0.3828,0.1944,0.2585,0.1798,0.8202,Home Win,0.4228,564720,2026-10-25,Spanish La Liga
+RC Celta de Vigo,Real Betis Balompié,1.38,1.17,0.404,0.2869,0.3091,0.5274,0.4692,0.5308,Home Win,0.404,564725,2026-10-25,Spanish La Liga
+Real Sociedad de Fútbol,Levante UD,2.32,1.48,0.5566,0.2098,0.2336,0.7033,0.7312,0.2688,Home Win,0.5566,564726,2026-10-25,Spanish La Liga
+FC Barcelona,Real Madrid CF,2.41,1.27,0.6206,0.1989,0.1805,0.6601,0.7107,0.2893,Home Win,0.6206,564723,2026-10-25,Spanish La Liga
+Udinese Calcio,US Lecce,1.61,0.83,0.5614,0.2412,0.1974,0.4469,0.4397,0.5603,Home Win,0.5614,558574,2026-10-18,Italian Serie A
+ACF Fiorentina,Como 1907,0.76,1.91,0.1454,0.2062,0.6484,0.4493,0.4975,0.5025,Away Win,0.6484,558577,2026-10-18,Italian Serie A
+AC Milan,Atalanta BC,1.26,0.96,0.437,0.2763,0.2867,0.4375,0.3827,0.6173,Home Win,0.437,558569,2026-10-18,Italian Serie A
+Juventus FC,SS Lazio,1.35,0.8,0.5002,0.2724,0.2274,0.4035,0.3632,0.6368,Home Win,0.5002,558570,2026-10-18,Italian Serie A
+AC Monza,Cagliari Calcio,1.43,1.85,0.3025,0.2193,0.4782,0.6366,0.6351,0.3649,Away Win,0.4782,558576,2026-10-19,Italian Serie A
+Parma Calcio 1913,Torino FC,0.98,1.11,0.3205,0.2905,0.389,0.4131,0.3465,0.6535,Away Win,0.389,558578,2026-10-19,Italian Serie A
+Torino FC,AC Monza,2.43,1.76,0.5304,0.1884,0.2813,0.7521,0.7875,0.2125,Home Win,0.5304,558567,2026-10-23,Italian Serie A
+Cagliari Calcio,Bologna FC 1909,1.14,0.97,0.3994,0.288,0.3126,0.4175,0.3529,0.6471,Home Win,0.3994,558560,2026-10-24,Italian Serie A
+Como 1907,US Sassuolo Calcio,2.17,0.83,0.6833,0.183,0.1337,0.4955,0.5755,0.4245,Home Win,0.6833,558561,2026-10-24,Italian Serie A
+SSC Napoli,AS Roma,0.89,1.27,0.2643,0.278,0.4577,0.4198,0.3675,0.6325,Away Win,0.4577,558564,2026-10-24,Italian Serie A
+SS Lazio,Parma Calcio 1913,1.24,0.55,0.5371,0.2938,0.1691,0.2972,0.267,0.733,Home Win,0.5371,558565,2026-10-24,Italian Serie A
+FC Internazionale Milano,ACF Fiorentina,3.24,0.9,0.823,0.1068,0.0702,0.5668,0.7793,0.2207,Home Win,0.823,558563,2026-10-25,Italian Serie A
+Atalanta BC,Frosinone Calcio,1.46,1.4,0.3931,0.2418,0.3651,0.5732,0.5433,0.4567,Home Win,0.3931,558562,2026-10-25,Italian Serie A
+Genoa CFC,Venezia FC,1.87,0.97,0.5864,0.2165,0.1971,0.5223,0.5398,0.4602,Home Win,0.5864,558568,2026-10-25,Italian Serie A
+US Lecce,Juventus FC,0.62,1.71,0.1333,0.2242,0.6425,0.3727,0.41,0.59,Away Win,0.6425,558566,2026-10-25,Italian Serie A
