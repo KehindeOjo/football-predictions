@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "home_team": "Ipswich Town FC",
+    "away_team": "Nottingham Forest FC",
+    "expected_goals_home": 1.72,
+    "expected_goals_away": 1.5,
+    "prob_home_win": 0.4195,
+    "prob_draw": 0.2543,
+    "prob_away_win": 0.3263,
+    "prob_btts_yes": 0.6499,
+    "prob_over_2_5": 0.6254,
+    "prob_under_2_5": 0.3746,
+    "top_pick": "Home Win",
+    "top_pick_confidence": 0.4195,
+    "fixture_id": 560620,
+    "date": "2026-10-23",
+    "league": "English Premier League"
+  },
+  {
+    "home_team": "Deportivo Alav\u00e9s",
+    "away_team": "M\u00e1laga CF",
+    "expected_goals_home": 2.19,
+    "expected_goals_away": 0.61,
+    "prob_home_win": 0.7299,
+    "prob_draw": 0.1888,
+    "prob_away_win": 0.0813,
+    "prob_btts_yes": 0.4134,
+    "prob_over_2_5": 0.5309,
+    "prob_under_2_5": 0.4691,
+    "top_pick": "Home Win",
+    "top_pick_confidence": 0.7299,
+    "fixture_id": 564719,
+    "date": "2026-10-23",
+    "league": "Spanish La Liga"
+  },
+  {
+    "home_team": "Torino FC",
+    "away_team": "AC Monza",
+    "expected_goals_home": 2.24,
+    "expected_goals_away": 2.2,
+    "prob_home_win": 0.4108,
+    "prob_draw": 0.1919,
+    "prob_away_win": 0.3973,
+    "prob_btts_yes": 0.7918,
+    "prob_over_2_5": 0.8186,
+    "prob_under_2_5": 0.1814,
+    "top_pick": "Home Win",
+    "top_pick_confidence": 0.4108,
+    "fixture_id": 558567,
+    "date": "2026-10-23",
+    "league": "Italian Serie A"
+  }
+]
