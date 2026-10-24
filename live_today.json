@@ -40,17 +40,17 @@
     "status": "TIMED",
     "home_team": "Rayo Vallecano de Madrid",
     "away_team": "Elche CF",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": null,
+    "away_goals": null,
     "league": "Spanish La Liga"
   },
   {
     "fixture_id": 564727,
-    "status": "FINISHED",
+    "status": "TIMED",
     "home_team": "Real Racing Club de Santander",
     "away_team": "RCD Espanyol de Barcelona",
-    "home_goals": 2.0,
-    "away_goals": 1.0,
+    "home_goals": null,
+    "away_goals": null,
     "league": "Spanish La Liga"
   },
   {
@@ -58,8 +58,8 @@
     "status": "TIMED",
     "home_team": "Valencia CF",
     "away_team": "Villarreal CF",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": null,
+    "away_goals": null,
     "league": "Spanish La Liga"
   },
   {
@@ -67,17 +67,17 @@
     "status": "TIMED",
     "home_team": "Club Atl\u00e9tico de Madrid",
     "away_team": "RC Deportivo La Coru\u00f1a",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": null,
+    "away_goals": null,
     "league": "Spanish La Liga"
   },
   {
     "fixture_id": 558560,
-    "status": "FINISHED",
+    "status": "TIMED",
     "home_team": "Cagliari Calcio",
     "away_team": "Bologna FC 1909",
-    "home_goals": 0.0,
-    "away_goals": 2.0,
+    "home_goals": null,
+    "away_goals": null,
     "league": "Italian Serie A"
   },
   {
@@ -85,8 +85,8 @@
     "status": "TIMED",
     "home_team": "Como 1907",
     "away_team": "US Sassuolo Calcio",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": null,
+    "away_goals": null,
     "league": "Italian Serie A"
   },
   {
@@ -94,17 +94,17 @@
     "status": "TIMED",
     "home_team": "SSC Napoli",
     "away_team": "AS Roma",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": null,
+    "away_goals": null,
     "league": "Italian Serie A"
   },
   {
     "fixture_id": 558565,
-    "status": "IN_PLAY",
+    "status": "TIMED",
     "home_team": "SS Lazio",
     "away_team": "Parma Calcio 1913",
-    "home_goals": 0.0,
-    "away_goals": 0.0,
+    "home_goals": null,
+    "away_goals": null,
     "league": "Italian Serie A"
   }
 ]
