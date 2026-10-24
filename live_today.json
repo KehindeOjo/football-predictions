@@ -1,11 +1,11 @@
 [
   {
     "fixture_id": 560614,
-    "status": "IN_PLAY",
+    "status": "TIMED",
     "home_team": "Aston Villa FC",
     "away_team": "Manchester City FC",
-    "home_goals": 1.0,
-    "away_goals": 1.0,
+    "home_goals": null,
+    "away_goals": null,
     "league": "English Premier League"
   },
   {
@@ -13,8 +13,8 @@
     "status": "TIMED",
     "home_team": "Arsenal FC",
     "away_team": "Everton FC",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": null,
+    "away_goals": null,
     "league": "English Premier League"
   },
   {
@@ -22,8 +22,8 @@
     "status": "TIMED",
     "home_team": "Coventry City FC",
     "away_team": "Fulham FC",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": null,
+    "away_goals": null,
     "league": "English Premier League"
   },
   {
@@ -31,8 +31,8 @@
     "status": "TIMED",
     "home_team": "Chelsea FC",
     "away_team": "Tottenham Hotspur FC",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": null,
+    "away_goals": null,
     "league": "English Premier League"
   },
   {
@@ -40,17 +40,17 @@
     "status": "TIMED",
     "home_team": "Rayo Vallecano de Madrid",
     "away_team": "Elche CF",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": NaN,
+    "away_goals": NaN,
     "league": "Spanish La Liga"
   },
   {
     "fixture_id": 564727,
-    "status": "TIMED",
+    "status": "FINISHED",
     "home_team": "Real Racing Club de Santander",
     "away_team": "RCD Espanyol de Barcelona",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": 2.0,
+    "away_goals": 1.0,
     "league": "Spanish La Liga"
   },
   {
@@ -58,8 +58,8 @@
     "status": "TIMED",
     "home_team": "Valencia CF",
     "away_team": "Villarreal CF",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": NaN,
+    "away_goals": NaN,
     "league": "Spanish La Liga"
   },
   {
@@ -67,8 +67,8 @@
     "status": "TIMED",
     "home_team": "Club Atl\u00e9tico de Madrid",
     "away_team": "RC Deportivo La Coru\u00f1a",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": NaN,
+    "away_goals": NaN,
     "league": "Spanish La Liga"
   },
   {
