@@ -1,11 +1,11 @@
 [
   {
     "fixture_id": 558556,
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "home_team": "US Sassuolo Calcio",
     "away_team": "SS Lazio",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": 2.0,
+    "away_goals": 4.0,
     "league": "Italian Serie A"
   },
   {
@@ -13,8 +13,8 @@
     "status": "TIMED",
     "home_team": "AS Roma",
     "away_team": "Cagliari Calcio",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": NaN,
+    "away_goals": NaN,
     "league": "Italian Serie A"
   },
   {
@@ -22,8 +22,8 @@
     "status": "TIMED",
     "home_team": "Torino FC",
     "away_team": "Como 1907",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": NaN,
+    "away_goals": NaN,
     "league": "Italian Serie A"
   }
 ]
