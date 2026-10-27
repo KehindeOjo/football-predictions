@@ -1,11 +1,29 @@
 [
   {
-    "fixture_id": 564721,
-    "status": "FINISHED",
-    "home_team": "Sevilla FC",
-    "away_team": "CA Osasuna",
-    "home_goals": 2,
-    "away_goals": 0,
-    "league": "Spanish La Liga"
+    "fixture_id": 558556,
+    "status": "TIMED",
+    "home_team": "US Sassuolo Calcio",
+    "away_team": "SS Lazio",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "Italian Serie A"
+  },
+  {
+    "fixture_id": 558555,
+    "status": "TIMED",
+    "home_team": "AS Roma",
+    "away_team": "Cagliari Calcio",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "Italian Serie A"
+  },
+  {
+    "fixture_id": 558557,
+    "status": "TIMED",
+    "home_team": "Torino FC",
+    "away_team": "Como 1907",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "Italian Serie A"
   }
 ]
