@@ -1,29 +1,47 @@
 [
   {
-    "fixture_id": 558556,
-    "status": "FINISHED",
-    "home_team": "US Sassuolo Calcio",
-    "away_team": "SS Lazio",
-    "home_goals": 2,
-    "away_goals": 6,
+    "fixture_id": 558549,
+    "status": "TIMED",
+    "home_team": "AC Milan",
+    "away_team": "Bologna FC 1909",
+    "home_goals": null,
+    "away_goals": null,
     "league": "Italian Serie A"
   },
   {
-    "fixture_id": 558555,
-    "status": "FINISHED",
-    "home_team": "AS Roma",
-    "away_team": "Cagliari Calcio",
-    "home_goals": 4,
-    "away_goals": 2,
+    "fixture_id": 558550,
+    "status": "TIMED",
+    "home_team": "Venezia FC",
+    "away_team": "FC Internazionale Milano",
+    "home_goals": null,
+    "away_goals": null,
     "league": "Italian Serie A"
   },
   {
-    "fixture_id": 558557,
-    "status": "FINISHED",
-    "home_team": "Torino FC",
-    "away_team": "Como 1907",
-    "home_goals": 1,
-    "away_goals": 3,
+    "fixture_id": 558553,
+    "status": "TIMED",
+    "home_team": "Parma Calcio 1913",
+    "away_team": "Udinese Calcio",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "Italian Serie A"
+  },
+  {
+    "fixture_id": 558552,
+    "status": "TIMED",
+    "home_team": "Genoa CFC",
+    "away_team": "Juventus FC",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "Italian Serie A"
+  },
+  {
+    "fixture_id": 558554,
+    "status": "TIMED",
+    "home_team": "AC Monza",
+    "away_team": "SSC Napoli",
+    "home_goals": null,
+    "away_goals": null,
     "league": "Italian Serie A"
   }
 ]
