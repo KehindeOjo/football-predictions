@@ -1,20 +1,20 @@
 [
   {
     "fixture_id": 558558,
-    "status": "TIMED",
+    "status": "FINISHED",
     "home_team": "Frosinone Calcio",
     "away_team": "US Lecce",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": 5,
+    "away_goals": 1,
     "league": "Italian Serie A"
   },
   {
     "fixture_id": 558551,
-    "status": "TIMED",
+    "status": "IN_PLAY",
     "home_team": "ACF Fiorentina",
     "away_team": "Atalanta BC",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": 0,
+    "away_goals": 1,
     "league": "Italian Serie A"
   }
 ]
