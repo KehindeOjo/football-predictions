@@ -257,3 +257,5 @@ prediction_id,model_version,external_fixture_id,home_team,away_team,match_date,p
 3515,dixon-coles-v1,558553,Parma Calcio 1913,Udinese Calcio,2026-10-28,0.2722,0.29,0.4378,0.3835,0.3231,Away Win,0,0,135,Draw,False,False,False,True,False,False,True
 3557,dixon-coles-v1,558552,Genoa CFC,Juventus FC,2026-10-28,0.1911,0.2542,0.5546,0.3914,0.3755,Away Win,2,0,135,Home Win,False,False,False,True,False,False,True
 3558,dixon-coles-v1,558554,AC Monza,SSC Napoli,2026-10-28,0.2184,0.1776,0.604,0.7062,0.7607,Away Win,1,4,135,Away Win,True,True,True,True,True,True,True
+3559,dixon-coles-v1,558558,Frosinone Calcio,US Lecce,2026-10-29,0.6849,0.1654,0.1497,0.6107,0.7009,Home Win,5,1,135,Home Win,True,True,True,True,True,True,True
+3560,dixon-coles-v1,558551,ACF Fiorentina,Atalanta BC,2026-10-29,0.2654,0.2353,0.4992,0.5394,0.5222,Away Win,2,2,135,Draw,False,True,True,True,True,True,True
