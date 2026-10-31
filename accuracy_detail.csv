@@ -158,6 +158,7 @@ prediction_id,model_version,external_fixture_id,home_team,away_team,match_date,p
 1663,dixon-coles-v1,564725,RC Celta de Vigo,Real Betis Balompié,2026-10-25,0.4012,0.2907,0.3081,0.5308,0.4707,Home Win,0,0,140,Draw,False,False,True,False,False,False,True
 1664,dixon-coles-v1,564726,Real Sociedad de Fútbol,Levante UD,2026-10-25,0.573,0.2,0.227,0.7362,0.7748,Home Win,2,1,140,Home Win,True,True,True,True,True,True,True
 1665,dixon-coles-v1,564727,Real Racing Club de Santander,RCD Espanyol de Barcelona,2026-10-25,0.3674,0.2395,0.3931,0.6989,0.6883,Away Win,2,1,140,Home Win,False,True,True,True,True,True,True
+1667,dixon-coles-v1,564737,Villarreal CF,RCD Espanyol de Barcelona,2026-11-01,0.6386,0.2245,0.137,0.5039,0.5457,Home Win,0,1,140,Away Win,False,False,True,False,False,True,False
 1683,dixon-coles-v1,558592,Frosinone Calcio,Como 1907,2026-09-20,0.2136,0.231,0.5554,0.4717,0.4673,Away Win,2,0,135,Home Win,False,False,False,True,False,False,True
 1684,dixon-coles-v1,558590,Parma Calcio 1913,Genoa CFC,2026-09-20,0.3073,0.3223,0.3704,0.3194,0.2441,Away Win,2,1,135,Home Win,False,True,False,False,True,False,False
 1685,dixon-coles-v1,558595,Juventus FC,Atalanta BC,2026-09-20,0.4396,0.2643,0.296,0.4485,0.3998,Home Win,2,0,135,Home Win,True,False,False,True,False,False,True
