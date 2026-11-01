@@ -158,7 +158,9 @@ prediction_id,model_version,external_fixture_id,home_team,away_team,match_date,p
 1663,dixon-coles-v1,564725,RC Celta de Vigo,Real Betis Balompié,2026-10-25,0.4012,0.2907,0.3081,0.5308,0.4707,Home Win,0,0,140,Draw,False,False,True,False,False,False,True
 1664,dixon-coles-v1,564726,Real Sociedad de Fútbol,Levante UD,2026-10-25,0.573,0.2,0.227,0.7362,0.7748,Home Win,2,1,140,Home Win,True,True,True,True,True,True,True
 1665,dixon-coles-v1,564727,Real Racing Club de Santander,RCD Espanyol de Barcelona,2026-10-25,0.3674,0.2395,0.3931,0.6989,0.6883,Away Win,2,1,140,Home Win,False,True,True,True,True,True,True
+1666,dixon-coles-v1,564736,Real Betis Balompié,Málaga CF,2026-11-01,0.7983,0.1437,0.058,0.4255,0.6239,Home Win,2,1,140,Home Win,True,True,False,False,True,True,True
 1667,dixon-coles-v1,564737,Villarreal CF,RCD Espanyol de Barcelona,2026-11-01,0.6386,0.2245,0.137,0.5039,0.5457,Home Win,0,1,140,Away Win,False,False,True,False,False,True,False
+1670,dixon-coles-v1,564730,Levante UD,Club Atlético de Madrid,2026-11-01,0.2713,0.2529,0.4758,0.6059,0.5837,Away Win,0,2,140,Away Win,True,False,True,False,False,True,False
 1683,dixon-coles-v1,558592,Frosinone Calcio,Como 1907,2026-09-20,0.2136,0.231,0.5554,0.4717,0.4673,Away Win,2,0,135,Home Win,False,False,False,True,False,False,True
 1684,dixon-coles-v1,558590,Parma Calcio 1913,Genoa CFC,2026-09-20,0.3073,0.3223,0.3704,0.3194,0.2441,Away Win,2,1,135,Home Win,False,True,False,False,True,False,False
 1685,dixon-coles-v1,558595,Juventus FC,Atalanta BC,2026-09-20,0.4396,0.2643,0.296,0.4485,0.3998,Home Win,2,0,135,Home Win,True,False,False,True,False,False,True
@@ -249,14 +251,27 @@ prediction_id,model_version,external_fixture_id,home_team,away_team,match_date,p
 3243,dixon-coles-v1,558562,Atalanta BC,Frosinone Calcio,2026-10-25,0.376,0.2343,0.3897,0.6042,0.5826,Away Win,4,4,135,Draw,False,True,True,True,True,True,True
 3244,dixon-coles-v1,558568,Genoa CFC,Venezia FC,2026-10-25,0.5634,0.2258,0.2108,0.514,0.5181,Home Win,1,0,135,Home Win,True,False,True,False,False,True,False
 3245,dixon-coles-v1,558566,US Lecce,Juventus FC,2026-10-25,0.1906,0.2495,0.5599,0.4159,0.4041,Away Win,0,2,135,Away Win,True,False,False,True,False,False,True
+3257,dixon-coles-v1,560626,Chelsea FC,Manchester United FC,2026-10-31,0.4241,0.2384,0.3375,0.7165,0.7104,Home Win,2,0,39,Home Win,True,False,True,False,False,True,False
+3258,dixon-coles-v1,560623,Manchester City FC,Brighton & Hove Albion FC,2026-10-31,0.4995,0.2586,0.2419,0.6033,0.5837,Home Win,0,1,39,Away Win,False,False,True,False,False,True,False
+3259,dixon-coles-v1,560624,AFC Bournemouth,Leeds United FC,2026-10-31,0.4204,0.297,0.2826,0.5293,0.4682,Home Win,2,0,39,Home Win,True,False,True,False,False,False,True
+3260,dixon-coles-v1,560625,Coventry City FC,Sunderland AFC,2026-10-31,0.2768,0.3266,0.3965,0.4502,0.368,Away Win,3,1,39,Home Win,False,True,False,False,True,False,False
+3275,dixon-coles-v1,564735,Rayo Vallecano de Madrid,RC Celta de Vigo,2026-10-31,0.3452,0.3185,0.3363,0.4448,0.3632,Home Win,3,0,140,Home Win,True,False,False,True,True,False,False
 3287,dixon-coles-v1,558559,Udinese Calcio,AC Milan,2026-10-25,0.2477,0.2395,0.5128,0.5157,0.4979,Away Win,0,2,135,Away Win,True,False,True,False,False,False,True
 3288,dixon-coles-v1,558556,US Sassuolo Calcio,SS Lazio,2026-10-27,0.2776,0.2507,0.4717,0.4891,0.4545,Away Win,2,6,135,Away Win,True,True,False,False,True,False,False
 3289,dixon-coles-v1,558555,AS Roma,Cagliari Calcio,2026-10-27,0.7215,0.1809,0.0976,0.3703,0.4772,Home Win,4,2,135,Home Win,True,True,False,False,True,False,False
 3290,dixon-coles-v1,558557,Torino FC,Como 1907,2026-10-27,0.1615,0.2,0.6385,0.4906,0.5369,Away Win,1,3,135,Away Win,True,True,False,False,True,True,True
+3305,dixon-coles-v1,560629,Hull City AFC,Ipswich Town FC,2026-10-31,0.5029,0.2719,0.2252,0.5504,0.52,Home Win,2,2,39,Draw,False,True,True,True,True,True,True
 3334,dixon-coles-v1,558549,AC Milan,Bologna FC 1909,2026-10-28,0.5152,0.2548,0.23,0.4367,0.4079,Home Win,2,4,135,Away Win,False,True,False,False,True,False,False
 3335,dixon-coles-v1,558550,Venezia FC,FC Internazionale Milano,2026-10-28,0.0381,0.0744,0.8875,0.474,0.7904,Away Win,0,2,135,Away Win,True,False,False,True,False,True,False
+3410,dixon-coles-v1,564732,FC Barcelona,Deportivo Alavés,2026-10-31,0.8658,0.0918,0.0423,0.5318,0.8049,Home Win,6,1,140,Home Win,True,True,True,True,True,True,True
+3485,dixon-coles-v1,560630,Brentford FC,Nottingham Forest FC,2026-10-31,0.5028,0.2828,0.2144,0.5098,0.4713,Home Win,2,0,39,Home Win,True,False,True,False,False,False,True
 3515,dixon-coles-v1,558553,Parma Calcio 1913,Udinese Calcio,2026-10-28,0.2722,0.29,0.4378,0.3835,0.3231,Away Win,0,0,135,Draw,False,False,False,True,False,False,True
+3530,dixon-coles-v1,560627,Tottenham Hotspur FC,Crystal Palace FC,2026-10-31,0.4854,0.2824,0.2322,0.53,0.4884,Home Win,2,0,39,Home Win,True,False,True,False,False,False,True
 3557,dixon-coles-v1,558552,Genoa CFC,Juventus FC,2026-10-28,0.1911,0.2542,0.5546,0.3914,0.3755,Away Win,2,0,135,Home Win,False,False,False,True,False,False,True
 3558,dixon-coles-v1,558554,AC Monza,SSC Napoli,2026-10-28,0.2184,0.1776,0.604,0.7062,0.7607,Away Win,1,4,135,Away Win,True,True,True,True,True,True,True
 3559,dixon-coles-v1,558558,Frosinone Calcio,US Lecce,2026-10-29,0.6849,0.1654,0.1497,0.6107,0.7009,Home Win,5,1,135,Home Win,True,True,True,True,True,True,True
 3560,dixon-coles-v1,558551,ACF Fiorentina,Atalanta BC,2026-10-29,0.2654,0.2353,0.4992,0.5394,0.5222,Away Win,2,2,135,Draw,False,True,True,True,True,True,True
+3573,dixon-coles-v1,560628,Aston Villa FC,Fulham FC,2026-10-31,0.4802,0.2949,0.2249,0.4909,0.4398,Home Win,1,1,39,Draw,False,True,False,False,False,False,True
+3601,dixon-coles-v1,558539,Bologna FC 1909,AC Monza,2026-10-31,0.5815,0.1798,0.2387,0.7357,0.7845,Home Win,2,1,135,Home Win,True,True,True,True,True,True,True
+3602,dixon-coles-v1,558542,Udinese Calcio,AS Roma,2026-10-31,0.1272,0.1811,0.6917,0.476,0.5616,Away Win,2,5,135,Away Win,True,True,False,False,True,True,True
+3603,dixon-coles-v1,558548,AC Milan,FC Internazionale Milano,2026-10-31,0.2478,0.2066,0.5456,0.6291,0.6473,Away Win,3,1,135,Home Win,False,True,True,True,True,True,True
