@@ -277,6 +277,8 @@ prediction_id,model_version,external_fixture_id,home_team,away_team,match_date,p
 3560,dixon-coles-v1,558551,ACF Fiorentina,Atalanta BC,2026-10-29,0.2654,0.2353,0.4992,0.5394,0.5222,Away Win,2,2,135,Draw,False,True,True,True,True,True,True
 3573,dixon-coles-v1,560628,Aston Villa FC,Fulham FC,2026-10-31,0.4802,0.2949,0.2249,0.4909,0.4398,Home Win,1,1,39,Draw,False,True,False,False,False,False,True
 3574,dixon-coles-v1,560631,Liverpool FC,Arsenal FC,2026-11-01,0.2294,0.3052,0.4654,0.453,0.3921,Away Win,0,1,39,Away Win,True,False,False,True,False,False,True
+3575,dixon-coles-v1,560622,Newcastle United FC,Everton FC,2026-11-02,0.4194,0.2807,0.2999,0.5596,0.5094,Home Win,0,1,39,Away Win,False,False,True,False,False,True,False
+3586,dixon-coles-v1,564731,RC Deportivo La Coruña,CA Osasuna,2026-11-02,0.5489,0.2586,0.1925,0.4812,0.4655,Home Win,2,1,140,Home Win,True,True,False,False,True,False,False
 3601,dixon-coles-v1,558539,Bologna FC 1909,AC Monza,2026-10-31,0.5815,0.1798,0.2387,0.7357,0.7845,Home Win,2,1,135,Home Win,True,True,True,True,True,True,True
 3602,dixon-coles-v1,558542,Udinese Calcio,AS Roma,2026-10-31,0.1272,0.1811,0.6917,0.476,0.5616,Away Win,2,5,135,Away Win,True,True,False,False,True,True,True
 3603,dixon-coles-v1,558548,AC Milan,FC Internazionale Milano,2026-10-31,0.2478,0.2066,0.5456,0.6291,0.6473,Away Win,3,1,135,Home Win,False,True,True,True,True,True,True
@@ -285,3 +287,5 @@ prediction_id,model_version,external_fixture_id,home_team,away_team,match_date,p
 3693,dixon-coles-v1,558546,SS Lazio,Cagliari Calcio,2026-11-01,0.6095,0.2258,0.1647,0.425,0.444,Home Win,2,1,135,Home Win,True,True,False,False,True,False,False
 3694,dixon-coles-v1,558540,US Lecce,Genoa CFC,2026-11-01,0.2884,0.292,0.4197,0.391,0.327,Away Win,1,2,135,Away Win,True,True,False,False,True,False,False
 3695,dixon-coles-v1,558547,Juventus FC,SSC Napoli,2026-11-01,0.3431,0.2721,0.3848,0.4588,0.4018,Away Win,2,0,135,Home Win,False,False,False,True,False,False,True
+3736,dixon-coles-v1,558541,US Sassuolo Calcio,ACF Fiorentina,2026-11-02,0.4325,0.2301,0.3373,0.5984,0.5805,Home Win,2,4,135,Away Win,False,True,True,True,True,True,True
+3737,dixon-coles-v1,558545,Atalanta BC,Parma Calcio 1913,2026-11-02,0.6081,0.2402,0.1517,0.3629,0.3759,Home Win,0,3,135,Away Win,False,False,False,True,True,False,False
