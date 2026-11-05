@@ -1,1 +1,53 @@
-[]
+[
+  {
+    "home_team": "Everton FC",
+    "away_team": "Coventry City FC",
+    "expected_goals_home": 1.63,
+    "expected_goals_away": 0.91,
+    "prob_home_win": 0.5322,
+    "prob_draw": 0.2692,
+    "prob_away_win": 0.1986,
+    "prob_btts_yes": 0.4906,
+    "prob_over_2_5": 0.4655,
+    "prob_under_2_5": 0.5345,
+    "top_pick": "Home Win",
+    "top_pick_confidence": 0.5322,
+    "fixture_id": 560634,
+    "date": "2026-11-06",
+    "league": "English Premier League"
+  },
+  {
+    "home_team": "Sevilla FC",
+    "away_team": "Deportivo Alav\u00e9s",
+    "expected_goals_home": 1.78,
+    "expected_goals_away": 1.22,
+    "prob_home_win": 0.499,
+    "prob_draw": 0.2459,
+    "prob_away_win": 0.2551,
+    "prob_btts_yes": 0.5934,
+    "prob_over_2_5": 0.5779,
+    "prob_under_2_5": 0.4221,
+    "top_pick": "Home Win",
+    "top_pick_confidence": 0.499,
+    "fixture_id": 564740,
+    "date": "2026-11-06",
+    "league": "Spanish La Liga"
+  },
+  {
+    "home_team": "Venezia FC",
+    "away_team": "Udinese Calcio",
+    "expected_goals_home": 0.78,
+    "expected_goals_away": 1.37,
+    "prob_home_win": 0.2173,
+    "prob_draw": 0.2683,
+    "prob_away_win": 0.5144,
+    "prob_btts_yes": 0.3968,
+    "prob_over_2_5": 0.3621,
+    "prob_under_2_5": 0.6379,
+    "top_pick": "Away Win",
+    "top_pick_confidence": 0.5144,
+    "fixture_id": 558537,
+    "date": "2026-11-06",
+    "league": "Italian Serie A"
+  }
+]
