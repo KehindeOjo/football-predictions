@@ -13,8 +13,8 @@ Nottingham Forest FC,Chelsea FC,1.47,1.36,0.3918,0.2656,0.3425,0.5803,0.5382,0.4
 Leeds United FC,Coventry City FC,1.86,0.87,0.5998,0.2351,0.165,0.4993,0.5156,0.4844,Home Win,0.5998,560652,2026-11-28,English Premier League
 Manchester United FC,Brentford FC,1.72,1.52,0.4189,0.2446,0.3365,0.6476,0.6278,0.3722,Home Win,0.4189,560655,2026-11-28,English Premier League
 Ipswich Town FC,Aston Villa FC,1.9,2.1,0.3529,0.2154,0.4317,0.7509,0.762,0.238,Away Win,0.4317,560653,2026-11-28,English Premier League
-Everton FC,Liverpool FC,1.18,1.27,0.3333,0.2893,0.3773,0.506,0.4429,0.5571,Away Win,0.3773,560656,2026-11-29,English Premier League
-Athletic Club,RCD Espanyol de Barcelona,1.38,0.85,0.4821,0.2995,0.2185,0.4386,0.3838,0.6162,Home Win,0.4821,564748,2026-11-20,Spanish La Liga
+Everton FC,Liverpool FC,1.18,1.27,0.3333,0.2893,0.3773,0.5061,0.4429,0.5571,Away Win,0.3773,560656,2026-11-29,English Premier League
+Athletic Club,RCD Espanyol de Barcelona,1.38,0.85,0.4821,0.2994,0.2185,0.4386,0.3838,0.6162,Home Win,0.4821,564748,2026-11-20,Spanish La Liga
 Deportivo Alavés,RC Deportivo La Coruña,1.27,1.04,0.4035,0.3051,0.2914,0.4767,0.406,0.594,Home Win,0.4035,564755,2026-11-21,Spanish La Liga
 Rayo Vallecano de Madrid,Valencia CF,1.44,0.86,0.495,0.2911,0.2139,0.4536,0.406,0.594,Home Win,0.495,564751,2026-11-21,Spanish La Liga
 Sevilla FC,Real Betis Balompié,1.37,1.55,0.3262,0.2668,0.407,0.5985,0.5591,0.4409,Away Win,0.407,564756,2026-11-21,Spanish La Liga
@@ -22,7 +22,7 @@ Real Madrid CF,RC Celta de Vigo,2.1,0.56,0.7275,0.1946,0.0779,0.382,0.4957,0.504
 FC Barcelona,Villarreal CF,3.32,1.05,0.7995,0.1229,0.0775,0.6299,0.8094,0.1906,Home Win,0.7995,564749,2026-11-22,Spanish La Liga
 Real Racing Club de Santander,Real Sociedad de Fútbol,2.05,2.69,0.2924,0.1909,0.5168,0.8171,0.8521,0.1479,Away Win,0.5168,564750,2026-11-22,Spanish La Liga
 CA Osasuna,Málaga CF,1.75,0.77,0.5961,0.2518,0.1521,0.455,0.4617,0.5383,Home Win,0.5961,564752,2026-11-22,Spanish La Liga
-Getafe CF,Club Atlético de Madrid,0.63,1.21,0.181,0.3283,0.4907,0.3368,0.2776,0.7224,Away Win,0.4907,564753,2026-11-22,Spanish La Liga
+Getafe CF,Club Atlético de Madrid,0.63,1.21,0.181,0.3282,0.4907,0.3368,0.2776,0.7224,Away Win,0.4907,564753,2026-11-22,Spanish La Liga
 Levante UD,Elche CF,1.71,1.25,0.4722,0.2584,0.2694,0.5944,0.5675,0.4325,Home Win,0.4722,564757,2026-11-23,Spanish La Liga
 Levante UD,Real Racing Club de Santander,2.85,1.41,0.6653,0.1723,0.1624,0.7181,0.797,0.203,Home Win,0.6653,564765,2026-11-27,Spanish La Liga
 Real Betis Balompié,Rayo Vallecano de Madrid,1.89,0.93,0.5907,0.2395,0.1698,0.5225,0.5348,0.4652,Home Win,0.5907,564760,2026-11-28,Spanish La Liga
