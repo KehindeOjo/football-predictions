@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "home_team": "Athletic Club",
+    "away_team": "RCD Espanyol de Barcelona",
+    "expected_goals_home": 1.38,
+    "expected_goals_away": 0.85,
+    "prob_home_win": 0.4821,
+    "prob_draw": 0.2994,
+    "prob_away_win": 0.2185,
+    "prob_btts_yes": 0.4386,
+    "prob_over_2_5": 0.3838,
+    "prob_under_2_5": 0.6162,
+    "top_pick": "Home Win",
+    "top_pick_confidence": 0.4821,
+    "fixture_id": 564748,
+    "date": "2026-11-20",
+    "league": "Spanish La Liga"
+  }
+]
