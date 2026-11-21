@@ -55,11 +55,11 @@
   },
   {
     "fixture_id": 560651,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Newcastle United FC",
     "away_team": "Arsenal FC",
-    "home_goals": 0,
-    "away_goals": 0,
+    "home_goals": 2,
+    "away_goals": 2,
     "league": "English Premier League"
   },
   {
@@ -67,8 +67,8 @@
     "status": "FINISHED",
     "home_team": "Deportivo Alav\u00e9s",
     "away_team": "RC Deportivo La Coru\u00f1a",
-    "home_goals": 3.0,
-    "away_goals": 1.0,
+    "home_goals": 3,
+    "away_goals": 1,
     "league": "Spanish La Liga"
   },
   {
@@ -76,62 +76,62 @@
     "status": "FINISHED",
     "home_team": "Rayo Vallecano de Madrid",
     "away_team": "Valencia CF",
-    "home_goals": 0.0,
-    "away_goals": 1.0,
+    "home_goals": 0,
+    "away_goals": 1,
     "league": "Spanish La Liga"
   },
   {
     "fixture_id": 564756,
-    "status": "IN_PLAY",
+    "status": "FINISHED",
     "home_team": "Sevilla FC",
     "away_team": "Real Betis Balompi\u00e9",
-    "home_goals": 0.0,
-    "away_goals": 0.0,
+    "home_goals": 1,
+    "away_goals": 1,
     "league": "Spanish La Liga"
   },
   {
     "fixture_id": 564754,
-    "status": "TIMED",
+    "status": "FINISHED",
     "home_team": "Real Madrid CF",
     "away_team": "RC Celta de Vigo",
-    "home_goals": NaN,
-    "away_goals": NaN,
+    "home_goals": 2,
+    "away_goals": 1,
     "league": "Spanish La Liga"
   },
   {
     "fixture_id": 558525,
-    "status": "TIMED",
+    "status": "FINISHED",
     "home_team": "Como 1907",
     "away_team": "Cagliari Calcio",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": 2,
+    "away_goals": 0,
     "league": "Italian Serie A"
   },
   {
     "fixture_id": 558528,
-    "status": "TIMED",
+    "status": "FINISHED",
     "home_team": "SS Lazio",
     "away_team": "US Lecce",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": 3,
+    "away_goals": 0,
     "league": "Italian Serie A"
   },
   {
     "fixture_id": 558526,
-    "status": "TIMED",
+    "status": "FINISHED",
     "home_team": "Parma Calcio 1913",
     "away_team": "AS Roma",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": 1,
+    "away_goals": 5,
     "league": "Italian Serie A"
   },
   {
     "fixture_id": 558527,
-    "status": "TIMED",
+    "status": "FINISHED",
     "home_team": "SSC Napoli",
     "away_team": "Torino FC",
-    "home_goals": null,
-    "away_goals": null,
+    "home_goals": 1,
+    "away_goals": 0,
     "league": "Italian Serie A"
   }
 ]
