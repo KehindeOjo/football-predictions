@@ -318,4 +318,5 @@ prediction_id,model_version,external_fixture_id,home_team,away_team,match_date,p
 3873,dixon-coles-v1,558536,Genoa CFC,AC Milan,2026-11-08,0.241,0.2492,0.5098,0.4626,0.4358,Away Win,1,2,135,Away Win,True,True,False,False,True,False,False
 3874,dixon-coles-v1,558538,AC Monza,Atalanta BC,2026-11-08,0.2875,0.183,0.5295,0.7716,0.8104,Away Win,0,1,135,Away Win,True,False,True,False,False,True,False
 3875,dixon-coles-v1,558530,FC Internazionale Milano,Como 1907,2026-11-08,0.3908,0.2386,0.3705,0.5692,0.5404,Home Win,2,0,135,Home Win,True,False,True,False,False,True,False
+3902,dixon-coles-v1,564748,Athletic Club,RCD Espanyol de Barcelona,2026-11-20,0.4821,0.2994,0.2185,0.4386,0.3838,Home Win,0,1,140,Away Win,False,False,False,True,False,False,True
 3917,dixon-coles-v1,558529,ACF Fiorentina,Juventus FC,2026-11-08,0.2315,0.2366,0.5319,0.4898,0.4765,Away Win,2,2,135,Draw,False,True,False,False,True,False,False
