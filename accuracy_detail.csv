@@ -335,4 +335,14 @@ prediction_id,model_version,external_fixture_id,home_team,away_team,match_date,p
 3964,dixon-coles-v1,558527,SSC Napoli,Torino FC,2026-11-21,0.617,0.2042,0.1787,0.5116,0.5466,Home Win,1,0,135,Home Win,True,False,True,False,False,True,False
 3965,dixon-coles-v1,558521,Juventus FC,Venezia FC,2026-11-22,0.6898,0.2005,0.1098,0.3556,0.4316,Home Win,4,0,135,Home Win,True,False,False,True,True,False,False
 4115,dixon-coles-v1,560650,Coventry City FC,Crystal Palace FC,2026-11-21,0.4733,0.2445,0.2821,0.621,0.6044,Home Win,3,2,39,Home Win,True,True,True,True,True,True,True
+4130,dixon-coles-v1,564749,FC Barcelona,Villarreal CF,2026-11-22,0.7979,0.1227,0.0794,0.6323,0.8099,Home Win,3,2,140,Home Win,True,True,True,True,True,True,True
+4145,dixon-coles-v1,558522,Bologna FC 1909,Udinese Calcio,2026-11-22,0.546,0.2226,0.2313,0.5237,0.5235,Home Win,1,1,135,Draw,False,True,True,True,False,True,False
 4157,dixon-coles-v1,560651,Newcastle United FC,Arsenal FC,2026-11-21,0.1368,0.2447,0.6185,0.4141,0.4334,Away Win,2,2,39,Draw,False,True,False,False,True,False,False
+4158,dixon-coles-v1,560646,Hull City AFC,Brighton & Hove Albion FC,2026-11-22,0.2183,0.3125,0.4692,0.4019,0.3387,Away Win,2,0,39,Home Win,False,False,False,True,False,False,True
+4159,dixon-coles-v1,560645,Liverpool FC,Manchester United FC,2026-11-22,0.5243,0.2326,0.2431,0.6415,0.6443,Home Win,4,0,39,Home Win,True,False,True,False,True,True,True
+4172,dixon-coles-v1,564750,Real Racing Club de Santander,Real Sociedad de Fútbol,2026-11-22,0.296,0.1892,0.5147,0.8194,0.8549,Away Win,3,2,140,Home Win,False,True,True,True,True,True,True
+4173,dixon-coles-v1,564752,CA Osasuna,Málaga CF,2026-11-22,0.594,0.2509,0.1551,0.4517,0.4573,Home Win,1,0,140,Home Win,True,False,False,True,False,False,True
+4174,dixon-coles-v1,564753,Getafe CF,Club Atlético de Madrid,2026-11-22,0.1814,0.3237,0.495,0.3361,0.2797,Away Win,0,3,140,Away Win,True,False,False,True,True,False,False
+4186,dixon-coles-v1,558524,US Sassuolo Calcio,Genoa CFC,2026-11-22,0.3804,0.2419,0.3777,0.5444,0.5106,Home Win,0,2,135,Away Win,False,False,True,False,False,True,False
+4187,dixon-coles-v1,558523,AC Milan,Frosinone Calcio,2026-11-22,0.4399,0.2052,0.3549,0.6992,0.7096,Home Win,5,1,135,Home Win,True,True,True,True,True,True,True
+4188,dixon-coles-v1,558520,Atalanta BC,FC Internazionale Milano,2026-11-22,0.1909,0.1837,0.6254,0.6101,0.664,Away Win,4,4,135,Draw,False,True,True,True,True,True,True
