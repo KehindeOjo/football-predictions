@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "fixture_id": 560658,
+    "status": "TIMED",
+    "home_team": "Nottingham Forest FC",
+    "away_team": "Chelsea FC",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "English Premier League"
+  },
+  {
+    "fixture_id": 564765,
+    "status": "TIMED",
+    "home_team": "Levante UD",
+    "away_team": "Real Racing Club de Santander",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "Spanish La Liga"
+  },
+  {
+    "fixture_id": 558515,
+    "status": "TIMED",
+    "home_team": "Venezia FC",
+    "away_team": "Bologna FC 1909",
+    "home_goals": null,
+    "away_goals": null,
+    "league": "Italian Serie A"
+  }
+]
